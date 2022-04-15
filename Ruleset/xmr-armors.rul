@@ -1,0 +1,390 @@
+armors:
+  - delete: SECTOID_ARMOR0
+  - delete: FLOATER_ARMOR0
+  - delete: FLOATER_ARMOR1
+  - delete: FLOATER_ARMOR2
+  - delete: MUTON_ARMOR0
+  - delete: MUTON_ARMOR1
+  - delete: MUTON_ARMOR2
+  - delete: ETHEREAL_ARMOR0
+  - delete: ETHEREAL_ARMOR1
+  - delete: ETHEREAL_ARMOR2
+  - delete: SNAKEMAN_ARMOR0
+  - delete: SNAKEMAN_ARMOR1
+  - delete: SNAKEMAN_ARMOR2
+  - delete: CYBERDISC_ARMOR
+  - delete: SECTOPOD_ARMOR
+  - delete: CELATID_ARMOR
+  - delete: SILACOID_ARMOR
+  - delete: CHRYSSALID_ARMOR
+  - delete: REAPER_ARMOR
+  - delete: ZOMBIE_ARMOR
+  - delete: STR_NONE_UC
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: TANK_ARMOR
+  - delete: CIVF_ARMOR
+  - delete: CIVM_ARMOR
+  - delete: HOVERTANK_ARMOR
+  - type: STR_KEVLAR_VEST_UC
+    spriteSheet: XCOM_6.PCK
+    spriteInv: MAN_6
+    storeItem: STR_KEVLAR_VEST
+    allowsKneeling: false
+    units:
+      - STR_SOLDIER_FA
+    corpseBattle:
+      - STR_CORPSE_KEVLAR
+    movementType: 1
+    drawingRoutine: 1
+    frontArmor: 32
+    sideArmor: 8
+    rearArmor: 26
+    underArmor: 20
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+    personalLight: 0
+  - type: STR_ALLOY_ARMOR_UC
+    spriteSheet: SECTOARMOR.PCK
+    spriteInv: MAN_S
+    allowsKneeling: false
+    corpseBattle:
+      - STR_CORPSE_ARMOR
+    storeItem: STR_ALLOY_ARMOR
+    units:
+      - STR_SOLDIER
+      - STR_SOLDIER_PSI
+    drawingRoutine: 0
+    frontArmor: 34
+    sideArmor: 22
+    rearArmor: 28
+    underArmor: 22
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+    loftempsSet: [ 2 ]
+    personalLight: 0
+  - type: STR_P_ARMOR_UC
+    spriteSheet: XCOM_PA.PCK
+    spriteInv: MAN_PA
+    allowsKneeling: false
+    corpseBattle:
+      - STR_CORPSE_PA_ARMOR
+    storeItem: STR_PERSONAL_ARMOR
+    units:
+      - STR_SOLDIER_MA
+    frontArmor: 38
+    sideArmor: 28
+    rearArmor: 32
+    underArmor: 28
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 0.6
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+    personalLight: 0
+  - &STR_POWER_SUIT_UC
+    type: STR_POWER_SUIT_UC
+    spriteSheet: XCOM_2.PCK
+    spriteInv: MAN_2
+    corpseBattle:
+      - STR_CORPSE_SUIT
+    weight: 2
+    builtInWeapons:
+      - NUL_BACKPACK
+    frontArmor: 38
+    sideArmor: 28
+    rearArmor: 34
+    underArmor: 28
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.8
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.6
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1
+    personalLight: 0
+    visibilityAtDark: 10
+  - type: STR_SPACE_SUIT_UC
+    spriteSheet: XC_SPACE_SUIT.PCK
+    spriteInv: INV_SPACE_SUIT
+    storeItem: STR_SPACE_SUIT
+    corpseBattle:
+      - STR_CORPSE_SPACE_SUIT
+    frontArmor: 24
+    sideArmor: 14
+    rearArmor: 20
+    underArmor: 14
+    builtInWeapons:
+      - NUL_BACKPACK
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.5
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.2
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    personalLight: 0
+    visibilityAtDark: 10
+  - &STR_FLYING_SUIT_UC
+    type: STR_FLYING_SUIT_UC
+    builtInWeapons:
+      - NUL_BACKPACK
+    spriteSheet: XCOM_3.PCK
+    spriteInv: MAN_3
+    corpseBattle:
+      - STR_CORPSE_SUIT
+    corpseItem: STR_CORPSE_FLYING_SUIT
+    weight: 2
+    frontArmor: 34
+    sideArmor: 24
+    rearArmor: 30
+    underArmor: 24
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.8
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.6
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 2
+    personalLight: 0
+    visibilityAtDark: 10
+  - type: STR_SECTOID_ARMOR_UC
+    spriteSheet: SECTOID.PCK
+    spriteInv: sectoidInv
+    storeItem: STR_NONE
+    allowsKneeling: false
+    corpseBattle:
+      - STR_SECTOID_CORPSE
+    units:
+      - STR_SOLDIER
+      - STR_SOLDIER_PSI
+    frontArmor: 2
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+    loftempsSet: [ 2 ]
+    visibilityAtDark: 10
+    personalLight: 0
+  - type: STR_FLOATER_ARMOR_UC
+    spriteSheet: FLOATER.PCK
+    storeItem: STR_NONE
+    spriteInv: floaterInv
+    allowsKneeling: false
+    corpseBattle:
+      - STR_FLOATER_CORPSE
+    units:
+      - STR_SOLDIER_F
+    frontArmor: 3
+    sideArmor: 3
+    rearArmor: 3
+    underArmor: 12
+    drawingRoutine: 1
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+    loftempsSet: [ 3 ]
+    visibilityAtDark: 10
+    personalLight: 0
+    moveSound: 15
+  - type: STR_CYBERDISC_ARMOR_UC
+    spriteSheet: CYBER.PCK
+    spriteInv: cyberdiscInv
+    allowInv: false
+    allowsKneeling: false
+    corpseBattle:
+      - CYBERDISC_CORPSE_1
+      - CYBERDISC_CORPSE_2
+      - CYBERDISC_CORPSE_3
+      - CYBERDISC_CORPSE_4
+    corpseGeo: STR_CYBERDISC_CORPSE
+    frontArmor: 34
+    sideArmor: 34
+    rearArmor: 34
+    underArmor: 34
+    drawingRoutine: 3
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.2
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    personalLight: 0
+  - type: STR_HOVERTANK_ARMOR_UC
+    spriteSheet: XCOM_CYBERDISC.PCK
+    spriteInv: hovertankInv
+    allowInv: false
+    corpseBattle:
+      - STR_HOVERTANK_CORPSE_1
+      - STR_HOVERTANK_CORPSE_2
+      - STR_HOVERTANK_CORPSE_3
+      - STR_HOVERTANK_CORPSE_4
+    frontArmor: 34
+    sideArmor: 34
+    rearArmor: 34
+    underArmor: 34
+    drawingRoutine: 3
+    constantAnimation: true
+    movementType: 1
+    size: 2
+    fearImmune: true
+    bleedImmune: true
+    zombiImmune: true
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.2
+      - 0.6
+      - 1.0
+      - 1.0
+      - 0.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    personalLight: 0
+  - type: CIVM_ARMOR
+    spriteSheet: CIVM.PCK
+    corpseBattle:
+      - CIVM_CORPSE
+    allowInv: false
+    frontArmor: 2
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+    loftempsSet: [ 2 ]
+    visibilityAtDark: 10
+    personalLight: 0
+  - type: CIVF_ARMOR
+    spriteSheet: CIVF.PCK
+    corpseBattle:
+      - CIVF_CORPSE
+    allowInv: false
+    frontArmor: 2
+    sideArmor: 2
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+    loftempsSet: [ 2 ]
+    visibilityAtDark: 10
+    personalLight: 0
+  - type: STR_MUTON_ARMOR_UC
+    spriteSheet: MUTON.PCK
+    spriteInv: mutonInv
+    storeItem: STR_NONE
+    allowsKneeling: false
+    corpseBattle:
+      - STR_MUTON_CORPSE
+    units:
+      - STR_SOLDIER_M
+    frontArmor: 22
+    sideArmor: 18
+    rearArmor: 20
+    underArmor: 18
+    drawingRoutine: 10
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftempsSet: [ 3 ]
+    visibilityAtDark: 10
+    personalLight: 0

@@ -1,0 +1,14 @@
+eventScripts:
+  - type: STR_RESOURCES_INITIAL
+    eventWeights:
+      0:
+        STR_ADD_RESOURCES_I: 100
+    firstMonth: 0
+    lastMonth:  0
+    executionOdds: 100
+  - type: STR_RESOURCES
+    eventWeights:
+      0:
+        STR_ADD_RESOURCES: 100
+    firstMonth: 1
+    executionOdds: 100  

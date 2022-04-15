@@ -1,0 +1,271 @@
+terrains:
+  - name: MARSMOUNT
+    script: DEFAULT
+    mapDataSets:
+      - BLANKS
+      - MARSMOUNT
+    mapBlocks:
+      - name: MARSMOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MARSMOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MARSMOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MARSMOUNT03
+        width: 10
+        length: 10
+      - name: MARSMOUNT04
+        width: 10
+        length: 10
+      - name: MARSMOUNT05
+        width: 10
+        length: 10
+      - name: MARSMOUNT06
+        width: 10
+        length: 10
+      - name: MARSMOUNT07
+        width: 10
+        length: 10
+      - name: MARSMOUNT08
+        width: 10
+        length: 10
+      - name: MARSMOUNT09
+        width: 10
+        length: 10
+      - name: MARSMOUNT10
+        width: 10
+        length: 10
+      - name: MARSMOUNT11
+        width: 20
+        length: 20
+      - name: MARSMOUNT12
+        width: 20
+        length: 20
+  - name: MARSURBAN
+    script: MARSURBAN
+    mapDataSets:
+      - BLANKS
+      - MARS
+      - U_WALL02M
+      - MARSURBAN
+    mapBlocks:
+      - name: MARSURBAN00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MARSURBAN01
+        width: 10
+        length: 10
+      - name: MARSURBAN02
+        width: 10
+        length: 10
+      - name: MARSURBAN03
+        width: 10
+        length: 10
+      - name: MARSURBAN04
+        width: 10
+        length: 10
+      - name: MARSURBAN05
+        width: 10
+        length: 10
+      - name: MARSURBAN06
+        width: 10
+        length: 10
+      - name: MARSURBAN07
+        width: 10
+        length: 10
+      - name: MARSURBAN08
+        width: 10
+        length: 10
+      - name: MARSURBAN09
+        width: 10
+        length: 10
+      - name: MARSURBAN10
+        width: 10
+        length: 10
+  - name: MARSPLAIN
+    script: DEFAULT
+    mapDataSets:
+      - BLANKS
+      - MARSPLAIN
+    mapBlocks:
+      - name: MARSPLAIN00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MARSPLAIN01
+        width: 10
+        length: 10
+      - name: MARSPLAIN02
+        width: 10
+        length: 10
+      - name: MARSPLAIN03
+        width: 10
+        length: 10
+      - name: MARSPLAIN04
+        width: 10
+        length: 10
+      - name: MARSPLAIN05
+        width: 10
+        length: 10
+      - name: MARSPLAIN06
+        width: 10
+        length: 10
+      - name: MARSPLAIN07
+        width: 10
+        length: 10
+      - name: MARSPLAIN08
+        width: 10
+        length: 10
+      - name: MARSPLAIN09
+        width: 20
+        length: 20
+  - name: MARSCRATER
+    script: DEFAULT
+    mapDataSets:
+      - BLANKS
+      - MARS
+    mapBlocks:
+      - name: MARSCRATER00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MARSCRATER01
+        width: 10
+        length: 10
+      - name: MARSCRATER02
+        width: 10
+        length: 10
+      - name: MARSCRATER03
+        width: 10
+        length: 10
+      - name: MARSCRATER04
+        width: 10
+        length: 10
+      - name: MARSCRATER05
+        width: 10
+        length: 10
+      - name: MARSCRATER06
+        width: 10
+        length: 10
+  - name: RBASE
+    mapDataSets:
+      - BLANKS
+      - RBASE1
+      - RBASE2
+    script: RBASE
+    mapBlocks:
+      - name: RBASE_00
+        width: 10
+        length: 10
+      - name: RBASE_01
+        width: 10
+        length: 10
+      - name: RBASE_02
+        width: 10
+        length: 10
+      - name: RBASE_03
+        width: 10
+        length: 10
+      - name: RBASE_04
+        width: 10
+        length: 10
+      - name: RBASE_05
+        width: 10
+        length: 10
+      - name: RBASE_06
+        width: 10
+        length: 10
+      - name: RBASE_07
+        width: 10
+        length: 10
+      - name: RBASE_08
+        width: 10
+        length: 10
+      - name: RBASE_09
+        width: 10
+        length: 10
+      - name: RBASE_10
+        width: 10
+        length: 10
+      - name: RBASE_11
+        width: 10
+        length: 10
+      - name: RBASE_12
+        width: 10
+        length: 10
+      - name: RBASE_13
+        width: 10
+        length: 10
+      - name: RBASE_14
+        width: 10
+        length: 10
+      - name: RBASE_15
+        width: 10
+        length: 10
+      - name: RBASE_16
+        width: 10
+        length: 10
+      - name: RBASE_17
+        width: 10
+        length: 10
+      - name: RBASE_18
+        width: 10
+        length: 10
+      - name: RBASE_19
+        width: 10
+        length: 10
+      - name: RBASE_20
+        width: 10
+        length: 10
+  - name: XCOMB
+    mapDataSets:
+      - BLANKS
+      - XCBAS1
+      - XCBAS2
+    mapBlocks:
+      - name: XCOMB_00
+        width: 20
+        length: 20
+        groups: 3
+      - name: XCOMB_01
+        width: 20
+        length: 20
+      - name: XCOMB_02
+        width: 20
+        length: 20
+      - name: XCOMB_03
+        width: 20
+        length: 20
+      - name: XCOMB_04
+        width: 10
+        length: 10
+        groups: 2
+      - name: XCOMB_05
+        width: 10
+        length: 10
+        groups: 1
+      - name: XCOMB_06
+        width: 10
+        length: 10
+      - name: XCOMB_07
+        width: 10
+        length: 10
+      - name: XCOMB_08
+        width: 10
+        length: 10
+      - name: XCOMB_09
+        width: 10
+        length: 10
+      - name: XCOMB_10
+        width: 10
+        length: 10
+      - name: XCOMB_11
+        width: 10
+        length: 10

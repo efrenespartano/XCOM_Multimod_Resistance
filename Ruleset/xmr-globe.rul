@@ -1,0 +1,82 @@
+globe:
+  data: Resources/Geoscape/WORLD.DAT
+  oceanPalette: 12
+  countryColor: 239
+  cityColor: 138
+  baseColor: 133
+  lineColor: 162
+  polylines:
+    - [74.568, -50.589, 119.92, -49.546, 126.795, -54.093, 132.392, -46.914, 122.073, -39.863, 120.616, -23.68, 101.281, -22.131, 97.939, -31.301, 76.192, -31.386, 74.568, -50.589]#China
+    - [14.406, -54.903, 17.784, -37.299, 12.453, -37, 10.772, -43.223, 2.968, -43.159, 2.133, -36.791, 352.898, -37.372, 355.569, -49.694, 4.933, -50.21, 14.406, -54.903]#Europe
+    - [227.79, -75.40, 218.94, -62.99, 236.42, -32.65, 262.51, -26.75, 279.36, -29.85, 288.01, -41.28, 305.21, -40.95, 304.71, -74.06,  260.42, -74.56, 227.79, -75.40]#Canada/EEUU
+    - [111.54, 11.11, 114.67, 38.01, 153.95, 38.76, 154.44, 11.19, 111.54, 11.11]#Australia
+    - [289.78, -2.11, 323.69, 1.72, 322.04, 21.50, 298.21, 38.15, 294.13, 55.53, 288.83, 38.79, 289.78, -2.11]#rasil
+    - [32.43, 34.10, 14.86, 31.28, 14.92, 26.19, 1.76, 22.57, 5.47, 0.68, 31.08, 3.09, 32.43, 34.10]#Africa
+    - [179.11, -11.70, 177.53, -6.74, 189.15, -5.97, 190.48, 14.08, 230.72, 13.73, 230.96, -5.4, 216.23, -3.8, 209.08, -11.53, 179.11, -11.70]
+    - [274.91, 44.88, 246.31, 44.86, 226.99, 46.19, 216.80, 68.82, 165.19, 68.90, 170.90, 73.54, 235.81, 73.85, 275.94, 73.51, 274.91, 44.88]
+  textures:
+    - id: 0
+      terrain:
+        - name: MARSPLAIN
+    - id: 1
+      terrain:
+        - name: MARSCRATER
+    - id: 2
+      terrain:
+        - name: MARSMOUNT
+          weight: 50
+        - name: MARSPLAIN
+          weight: 50
+    - id: 3
+      terrain:
+        - name: MARSMOUNT
+          weight: 30
+        - name: MARSPLAIN
+          weight: 70
+    - id: 4
+      terrain:
+        - name: MARSCRATER
+    - id: 5
+      terrain:
+        - name: MARSMOUNT
+          weight: 30
+        - name: MARSCRATER
+          weight: 50
+        - name: MARSPLAIN
+          weight: 20
+    - id: 6
+      terrain:
+        - name: MARSMOUNT
+          weight: 70
+        - name: MARSPLAIN
+          weight: 50
+    - id: 7
+      terrain:
+        - name: POLAR
+    - id: 8
+      terrain:
+        - name: MARSMOUNT
+    - id: 9
+      terrain:
+        - name: MARSMOUNT
+          weight: 70
+        - name: MARSPLAIN
+          weight: 30
+    - id: 10
+      terrain:
+        - name: MARSCRATER
+    - id: 11
+      terrain:
+        - name: POLAR
+    - id: -1
+      deployments:
+        STR_TERROR_MISSION: 100
+    - id: -2
+      deployments:
+        STR_HUMAN_EXCAVATION: 100
+    - id: -3
+      deployments:
+        STR_MAIN_BASE_ASSAULT: 100
+    - id: -4
+      deployments:
+        STR_HUMAN_RESEARCH: 100

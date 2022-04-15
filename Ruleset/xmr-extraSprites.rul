@@ -1,0 +1,475 @@
+extraSprites:
+  - delete: SPICONS.DAT
+  - type: BIGOBS.PCK
+    files:
+      0: Resources/Weapons/BIGOBS00.gif
+      1: Resources/Weapons/BIGOBS01.png
+      3: Resources/Weapons/BIGOBS03.gif
+      5: Resources/Weapons/BIGOBS05.gif
+      6: Resources/Weapons/BIGOBS06.gif
+      7: Resources/Weapons/BIGOBS07.png
+      12: Resources/Weapons/BIGOBS12.gif
+      13: Resources/Weapons/BIGOBS13.gif
+      14: Resources/Weapons/BIGOBS14.png            
+      15: Resources/Weapons/BIGOBS15.png
+      16: Resources/Weapons/BIGOBS16.png      
+      17: Resources/Weapons/BIGOBS17.png      
+      18: Resources/Weapons/BIGOBS18.png      
+      30: Resources/Weapons/BIGOBS30.png 
+      31: Resources/Weapons/BIGOBS31.png 
+      33: Resources/Weapons/BIGOBS33.gif 
+      60: Resources/Weapons/BIGOBS60.gif 
+      101: Resources/Weapons/BIGOBS101.png
+      102: Resources/Weapons/BIGOBS102.png
+      103: Resources/Weapons/BIGOBS103.png
+      106: Resources/Weapons/BIGOBS106.gif
+      107: Resources/Weapons/BIGOBS107.gif
+      108: Resources/Weapons/BIGOBS01G.png
+      109: Resources/Weapons/BIGOBS01S.png
+      110: Resources/Weapons/BIGOBS110.gif
+      111: Resources/Weapons/BIGOBS111.gif
+      112: Resources/Weapons/BIGOBS108.gif
+      113: Resources/Weapons/BIGOBS109.gif
+      114: Resources/Weapons/BIGOBS112.gif
+      115: Resources/Weapons/BIGOBS113.gif
+      116: Resources/Weapons/BIGOBS114.gif
+      117: Resources/Weapons/BIGOBS116.gif
+      118: Resources/Weapons/BIGOBS117.gif
+      119: Resources/Weapons/BIGOBS118.gif
+      120: Resources/Weapons/BIGOBS119.gif
+      121: Resources/Weapons/BIGOBS120.gif
+      122: Resources/Weapons/Bigob_Medium_launcher.gif
+      123: Resources/Weapons/BIGOBS121.gif
+      124: Resources/Weapons/BIGOBS122.gif
+      125: Resources/Weapons/BIGOBS123.png
+      126: Resources/Weapons/BIGOBS124.png
+      127: Resources/Weapons/BIGOBS125.png
+      128: Resources/Weapons/BIGOBS116GL.gif
+      129: Resources/Weapons/BIGOBS116SG.gif
+      130: Resources/Weapons/BIGOBS31GL.png
+      131: Resources/Weapons/BIGOBS31SG.png
+      200: Resources/Weapons/xcom_cyberdisc_laser.png
+      301: Resources/Armors/SpaceSuit/bigob_SPACE_SUIT.png 
+      302: Resources/Armors/FloaterArmor/MAN_6_Corpse.png  
+      28: Resources/Armors/SectoidArmor/MAN_1_Corpse.gif
+      44: Resources/Armors/PowerSuit/BigCorpse.png
+      57: Resources/Armors/FlyingSuit/BigCorpse.png
+      303: Resources/Armors/MutonArmor/PA_corpse.png
+      404: Resources/Civilians/Pale/BigOb_Sectoid_Pale.png
+      405: Resources/Civilians/Albino/BigOb_Sectoid_White.png
+      442: Resources/UI/Null_Void_3x3.png
+  - type: FLOOROB.PCK
+    files:
+      1: Resources/Weapons/FLOOROB01.png
+      7: Resources/Weapons/FLOOROB07.png
+      12: Resources/Weapons/FLOOROB12.png
+      13: Resources/Weapons/FLOOROB13.png
+      14: Resources/Weapons/FLOOROB14.png
+      #15: Resources/Weapons/FLOOROB15.png
+      40: Resources/Armors/SectoidArmor/man_1_Floorob.png
+      74: Resources/Units/xcom_cyberdisc1.png
+      75: Resources/Units/xcom_cyberdisc2.png
+      76: Resources/Units/xcom_cyberdisc3.png
+      77: Resources/Units/xcom_cyberdisc4.png      
+      103: Resources/Weapons/FLOOROB103.png
+      104: Resources/Armors/FloaterArmor/MAN_6_Floorob.png
+      106: Resources/Weapons/FLOOROB106.png
+      107: Resources/Weapons/FLOOROB107.png
+      108: Resources/Weapons/FLOOROB108.png
+      109: Resources/Weapons/FLOOROB109.png
+      110: Resources/Weapons/FLOOROB110.png
+      111: Resources/Weapons/FLOOROB111.png
+      112: Resources/Weapons/FLOOROB112.png
+      113: Resources/Weapons/FLOOROB116.gif
+      114: Resources/Weapons/FLOOROB117.gif
+      115: Resources/Weapons/FLOOROB118.gif
+      116: Resources/Weapons/FLOOROB119.gif
+      117: Resources/Weapons/Floorob_Medium_launcher.gif
+      118: Resources/Weapons/FLOOROB120.png
+      119: Resources/Weapons/FLOOROB121.png
+      301: Resources/Armors/SpaceSuit/floorob_SPACE_SUIT.png
+      302: Resources/Armors/MutonArmor/PA_floor.png
+      41: Resources/Armors/PowerSuit/FloorCorpse.png
+      73: Resources/Armors/FlyingSuit/FloorCorpse.png
+      200: Resources/Weapons/FloorOb_Elerium.gif 
+      404: Resources/Civilians/Pale/FloorOb_Sectoid_Pale.png
+      405: Resources/Civilians/Albino/FloorOb_Sectoid_White.png
+  - type: HANDOB.PCK
+    height: 40
+    width: 256
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Weapons/HANDOB01.png
+      8: Resources/Weapons/HANDOB08.png
+      16: Resources/Weapons/HANDOB16.png
+      32: Resources/Weapons/HANDOB07.png
+      112: Resources/Weapons/HANDOB112.gif
+      120: Resources/Weapons/HANDOB01GS.png
+      128: Resources/Weapons/HANDOB01GS.png
+      136: Resources/Weapons/HANDOB116.png
+      144: Resources/Weapons/HANDOB144.gif
+      152: Resources/Weapons/HANDOB152.gif
+      160: Resources/Weapons/HANDOB160.gif
+      168: Resources/Weapons/HANDOB168.gif
+      176: Resources/Weapons/HandOb_HTRocket.gif
+      184: Resources/Weapons/HandOb_HERocket.gif
+      192: Resources/Weapons/HandOb_IRocket.gif
+      208: Resources/Weapons/HandOb_MediKit.gif
+      216: Resources/Weapons/HandOb_HE.gif
+      224: Resources/Weapons/HandOb_Scanner.gif
+      240: Resources/Weapons/HandOb_ElectroFlare.gif      
+      248: Resources/Weapons/HandOb_MindProbe.gif
+      280: Resources/Weapons/HandOb_BlasterBomb.gif      
+      336: Resources/Weapons/HandOb_AlienGrenade.gif
+      344: Resources/Weapons/HandOb_SmokeGrenade.gif
+      354: Resources/Weapons/HandOb_RifleClip.gif
+      360: Resources/Weapons/HandOb_PistolClip.gif
+      368: Resources/Weapons/HandOb_PPistolClip.gif
+      376: Resources/Weapons/HandOb_PRifleClip.gif
+      384: Resources/Weapons/HandOb_PHeavyClip.gif  
+      392: Resources/Weapons/HandOb_StunBomb.gif
+      396: Resources/Weapons/HandOb_Elerium.gif 
+      404: Resources/Weapons/HandOb_EXBomb.gif     
+      412: Resources/Weapons/HandOb_IBomb.gif  
+      420: Resources/Weapons/HANDOB117.png
+      428: Resources/Weapons/HANDOB118.png
+      436: Resources/Weapons/Handob_Medium_launcher.png
+      444: Resources/Weapons/HANDOB119.png
+  - type: SMOKE.PCK
+    height: 80
+    width: 160
+    subX: 32
+    subY: 40
+    files:
+      56: Resources/Animations/Taser_hit.png
+      20: Resources/Ranks/rookie.png
+      21: Resources/Ranks/squaddie.png
+      22: Resources/Ranks/corporal.png
+      23: Resources/Ranks/sergeant.png
+      24: Resources/Ranks/lieutenant.png
+      25: Resources/Ranks/captain.png
+      26: Resources/Animations/AP.gif
+      66: Resources/Animations/HEAT.gif
+  - type: Projectiles
+    height: 3
+    width: 65
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/Animations/RailBulletSprite.png
+      420: Resources/Animations/HE_bomb.png
+      455: Resources/Animations/I_bomb.png
+  - type: TEXTURE.DAT
+    width: 800
+    height: 96
+    subX: 32
+    subY: 32
+    files:
+      0: Resources/Geoscape/TEXTURES.PNG
+  - type: SPICONS.DAT
+    width: 16
+    height: 12
+    files:
+      2: Resources/Icons/armor_scanner.png
+      3: Resources/Icons/mind_probe.png
+  - type: GUNBOAT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      35: Resources/Ufopedia/Transport.gif
+  - type: INTERCEPTOR.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      36: Resources/Ufopedia/Fighter.gif
+  - type: ASSAULT.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      37: Resources/Ufopedia/Assault.gif
+  - type: HOVERTANK.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      38: Resources/Ufopedia/Hovertank.gif
+  - type: HOVERTANK_AUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      39: Resources/Ufopedia/Hovertank_autopsy.gif
+  - type: HUMAN.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      35: Resources/Ufopedia/ufopedia_HUMAN.png
+  - type: HUMAN_AUTOPSY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      35: Resources/Ufopedia/ufopedia_HUMAN_AUTOPSY.png
+  - type: HYPERALLOYS.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      35: Resources/Ufopedia/HyperAlloys.gif
+  - type: BASEBITS.PCK
+    files:
+      35: Resources/Crafts/Thunder/Heracles_base.gif
+      42: Resources/Ranks/rookie.png
+      43: Resources/Ranks/squaddie.png
+      44: Resources/Ranks/corporal.png
+      45: Resources/Ranks/sergeant.png
+      46: Resources/Ranks/lieutenant.png
+      47: Resources/Ranks/captain.png
+      100: Resources/Facilities/advdef.png
+  - type: INTICON.PCK
+    files:
+      2: Resources/Crafts/Thunder/Heracles_minimised.gif
+      13: Resources/Crafts/Thunder/Heracles_dogfight.gif
+  - type: InterceptionExcavator
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/UFOS/UFO_Excavator.gif
+  - type: InterceptionFighter
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/UFOS/UFO_fighter.gif
+  - type: InterceptionAvenger
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/UFOS/UFO_Avenger.gif
+  - type: InterceptionLightning
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/UFOS/UFO_Lightning.gif
+  - type: InterceptionAssault
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/UFOS/UFO_Assault.gif
+  - type: InterceptionSupply
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/UFOS/UFO_Supply.gif
+  - type: XCOM_2.PCK
+    width: 1024
+    height: 360
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/PowerSuit/POWER_SUIT.png
+  - type: INV_SPACE_SUIT.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/SpaceSuit/Inv_Space_Suit.png
+  - type: CIVF.PCK
+    subX: 32
+    subY: 40
+    width: 320
+    height: 1080
+    files:
+      0: Resources/Civilians/Albino/Unit_Sectoid_Albino.png
+  - type: CIVM.PCK
+    subX: 32
+    subY: 40
+    width: 320
+    height: 1080
+    files:
+      0: Resources/Civilians/Pale/Unit_Sectoid_Pale.png
+  - type: XC_SPACE_SUIT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/SpaceSuit/SPACE_SUIT.png
+  - type: XCOM_3.PCK
+    width: 1024
+    height: 360
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/FlyingSuit/FLYING_SUIT.png
+  - type: XCOM_PA.PCK
+    width: 256
+    height: 1480
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/MutonArmor/XCOM_PA.gif
+  - type: MAN_2M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/PowerSuit/man_2m0.png
+  - type: MAN_2M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/PowerSuit/man_2m1.png
+  - type: MAN_2M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/PowerSuit/man_2m2.png
+  - type: MAN_2M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/PowerSuit/man_2m3.png
+  - type: MAN_2F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/PowerSuit/man_2f0.png
+  - type: MAN_2F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/PowerSuit/man_2f1.png
+  - type: MAN_2F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/PowerSuit/man_2f2.png
+  - type: MAN_2F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/PowerSuit/man_2f3.png
+  - type: MAN_3M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/FlyingSuit/man_3m0.png
+  - type: MAN_3M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/FlyingSuit/man_3m1.png
+  - type: MAN_3M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/FlyingSuit/man_3m2.png
+  - type: MAN_3M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/FlyingSuit/man_3m3.png
+  - type: MAN_3F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/FlyingSuit/man_3f0.png
+  - type: MAN_3F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/FlyingSuit/man_3f1.png
+  - type: MAN_3F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/FlyingSuit/man_3f2.png
+  - type: MAN_3F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/FlyingSuit/man_3f3.png
+  - type: MAN_S.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/SectoidArmor/Inventory/man_1m0.gif
+  - type: MAN_6.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/FloaterArmor/Inventory/MAN_6M0.gif
+  - type: MAN_PA.SPK
+    singleImage: true
+    files:
+      0: Resources/Armors/MutonArmor/Inventory/man_gm0.gif
+  - type: SECTOARMOR.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      0: Resources/Armors/SectoidArmor/sectoarmor.png
+  - type: XCOM_6.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armors/FloaterArmor/XCOM_6.png
+  - type: mutonInv.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Aliens/inventory_MUTON.png
+  - type: sectoidInv.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Aliens/inventory_SECTOID.png
+  - type: floaterInv.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Aliens/inventory_FLOATER.png
+  - type: cyberdiscInv.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Aliens/inventory_CYBERDISC.png
+  - type: hovertankInv.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Aliens/inventory_HOVERTANK.png
+  - type: X1.PCK
+    width: 1024
+    height: 768
+    subX: 128
+    subY: 64
+    files:
+      100: Resources/Animations/XSmoke2.png
+      120: Resources/Animations/X2_Freeze.png
+      140: Resources/Animations/XStun2.png
+      160: Resources/Animations/GreenXpl.png
+      80: Resources/Animations/X1_DIO.png
+  - type: Tornado_UFOPEDIAImage
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/Tornado_UFOpedia.gif
+  - type: Barracuda_UFOPEDIAImage
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/Barracuda_UFOpedia.gif
+  - type: LASER_CANNON
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopedia/Laser_Cannon.png
+  - type: XCOM_CYBERDISC.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 160
+    files:
+      0: Resources/Units/xcom_cyberdisc.png

@@ -1,0 +1,36 @@
+craftWeapons:
+  - delete: STR_FUSION_BALL_UC
+  - delete: STR_PLASMA_BEAM_UC
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
+  - delete: STR_LASER_CANNON_UC
+  - type: STR_PLASMA_CANNON_UC
+    weaponType: 0
+    sprite: 5
+    sound: 9
+    damage: 30
+    range: 42
+    accuracy: 50
+    reloadCautious: 32
+    reloadStandard: 32
+    reloadAggressive: 32
+    ammoMax: 20
+    rearmRate: 20
+    launcher: STR_PLASMA_CANNON
+    clip: STR_PLASMA_CANNON_CLIP
+    projectileType: 5
+  - type: STR_LASER_CANNON_UC
+    weaponType: 0
+    sprite: 4
+    sound: 8
+    damage: 20
+    range: 46
+    accuracy: 50
+    reloadCautious: 32
+    reloadStandard: 32
+    reloadAggressive: 32
+    ammoMax: 20
+    rearmRate: 10
+    launcher: STR_LASER_CANNON
+    projectileType: 4

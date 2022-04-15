@@ -1,0 +1,12 @@
+events:
+  - name: STR_ADD_RESOURCES_I
+    description: STR_RESOURCES_I_TEXT
+    points: 0
+    timer: 60
+    everyMultiItemList: {STR_ELERIUM_115: 80, STR_ALIEN_ALLOYS: 80}
+      
+  - name: STR_ADD_RESOURCES
+    description: STR_RESOURCES_TEXT
+    points: 0
+    timer: 60
+    everyMultiItemList: {STR_ELERIUM_115: 50, STR_ALIEN_ALLOYS: 50}

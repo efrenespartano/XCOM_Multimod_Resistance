@@ -1,0 +1,107 @@
+crafts:
+  - delete: STR_SKYRANGER
+  - delete: STR_FIRESTORM
+  - delete: STR_AVENGER
+  - delete: STR_INTERCEPTOR
+  - delete: STR_LIGHTNING
+  - type: STR_GUNBOAT
+    spacecraft: true
+    maxItems: 120
+    sprite: 0
+    refuelItem: STR_ELERIUM_115
+    fuelMax: 50
+    damageMax: 200
+    speedMax: 2800
+    accel: 2
+    soldiers: 8
+    weapons: 1
+    weaponTypes: 
+      - 0
+    costBuy: 500000
+    costRent: 350000
+    forceShowInMonthlyCosts: true
+    refuelRate: 10
+    transferTime: 72
+    score: 200
+    battlescapeTerrainData:
+      name: UFO_110CRAFT
+      mapDataSets:
+        - BLANKS
+        - U_EXT02M
+        - U_WALL02M
+        - U_BITSM
+        - UFOL83M
+      mapBlocks:
+        - name: UFO_110CRAFT
+          width: 10
+          length: 10
+    deployment:    
+      - [6, 3, 0, 2]
+      - [6, 4, 0, 2]
+      - [6, 5, 0, 2]
+      - [5, 3, 0, 2]  
+      - [5, 4, 0, 2]  
+      - [5, 5, 0, 2]  
+      - [4, 3, 0, 2]
+      - [4, 5, 0, 2]
+  - type: STR_ASSAULT
+    spacecraft: true
+    maxItems: 100
+    requires:
+      - STR_NEW_FIGHTER_TRANSPORTER
+    sprite: 1
+    fuelMax: 40
+    damageMax: 350
+    speedMax: 4000
+    accel: 9
+    weapons: 2
+    weaponTypes: 
+      - [0,1]
+      - [0,1]
+    soldiers: 14
+    vehicles: 2
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 10
+    score: 300
+    battlescapeTerrainData:
+      name: UFO_ICRAFT
+      mapDataSets:
+        - BLANKS
+        - U_EXT02M
+        - U_WALL02M
+        - U_BITSM
+        - UFOL83M
+      mapBlocks:
+        - name: UFO_ICRAFT
+          width: 20
+          length: 20
+    deployment:  
+      - [15, 8, 0, 2]
+      - [15, 9, 0, 2]
+      - [14, 8, 0, 2]
+      - [14, 9, 0, 2]        
+      - [13, 8, 0, 2]
+      - [13, 9, 0, 2]
+      - [12, 8, 0, 2]
+      - [12, 9, 0, 2]  
+      - [13, 7, 0, 2]
+      - [13, 10, 0, 2]
+      - [12, 7, 0, 2] 
+      - [12, 10, 0, 2]       
+      - [11, 7, 0, 2]
+      - [11, 10, 0, 2]  
+  - type: STR_INTERCEPTOR
+    sprite: 4
+    fuelMax: 25
+    damageMax: 250
+    speedMax: 3200
+    accel: 9
+    weapons: 2
+    weaponTypes: 
+      - 0 
+      - 0 
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 10
+    score: 250
+    costBuy: 600000
+    costRent: 400000

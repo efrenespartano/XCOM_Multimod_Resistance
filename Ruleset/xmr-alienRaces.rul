@@ -1,0 +1,27 @@
+alienRaces:
+  - delete: STR_SECTOID
+  - delete: STR_SNAKEMAN
+  - delete: STR_FLOATER
+  - delete: STR_MUTON
+  - delete: STR_ETHEREAL
+  - delete: STR_MIXED
+  - id: STR_HUMAN
+    members:
+      - STR_HUMAN_CAPTAIN
+      - STR_HUMAN_LIEUTENANT
+      - STR_HUMAN_SERGEANT
+      - STR_HUMAN_CORPORAL
+      - STR_HUMAN_SQUADDIE
+      - STR_HUMAN_ROOKIE
+      - STR_HUMAN_PSI
+      - STR_HOVERTANK_PLASMA
+  - id: STR_HUMAN_A
+    members:
+      - STR_HUMAN_CAPTAIN_A
+      - STR_HUMAN_LIEUTENANT_A
+      - STR_HUMAN_SERGEANT_A
+      - STR_HUMAN_CORPORAL_A
+      - STR_HUMAN_SQUADDIE_A
+      - STR_HUMAN_ROOKIE_A
+      - STR_HUMAN_PSI_A
+      - STR_HOVERTANK_PLASMA

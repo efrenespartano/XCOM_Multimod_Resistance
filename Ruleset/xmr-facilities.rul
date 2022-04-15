@@ -1,0 +1,252 @@
+facilities:
+  - delete: STR_LARGE_RADAR_SYSTEM
+  - delete: STR_MISSILE_DEFENSES
+  - delete: STR_FUSION_BALL_DEFENSES
+  - type: STR_ACCESS_LIFT
+    spriteShape: 2
+    spriteFacility: 17
+    lift: true
+    buildCost: 300000
+    buildTime: 1
+    monthlyCost: 15000
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 3]
+      blocks: 0
+    - type: ceiling
+      size: [1, 1, 4]  
+      terrain: baseTerrain  
+    mapName: RBASE_00
+  - type: STR_LIVING_QUARTERS
+    spriteShape: 1
+    spriteFacility: 18
+    buildCost: 400000
+    buildTime: 16
+    monthlyCost: 20000
+    personnel: 20
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 3]
+      blocks: 1
+    - type: ceiling
+      size: [1, 1, 4]  
+      terrain: baseTerrain  
+    mapName: RBASE_01
+    rightClickActionType: 6
+  - type: STR_LABORATORY
+    spriteShape: 1
+    spriteFacility: 19
+    buildCost: 750000
+    buildTime: 26
+    monthlyCost: 100000
+    labs: 10
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 3]
+      blocks: 2
+    - type: ceiling
+      size: [1, 1, 4]  
+      terrain: baseTerrain  
+    mapName: RBASE_02
+    rightClickActionType: 3
+    provideBaseFunc: [IMP]
+  - type: STR_WORKSHOP
+    spriteShape: 1
+    spriteFacility: 20
+    buildCost: 800000
+    buildTime: 32
+    monthlyCost: 40000
+    workshops: 10
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 3]
+      blocks: 3
+    - type: ceiling
+      size: [1, 1, 4]  
+      terrain: baseTerrain  
+    mapName: RBASE_03
+    rightClickActionType: 2
+  - type: STR_SMALL_RADAR_SYSTEM
+    spriteShape: 2
+    spriteFacility: 21
+    buildCost: 700000
+    buildTime: 12
+    monthlyCost: 35000
+    radarRange: 2265
+    radarChance: 40
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 3]
+      blocks: 4
+    - type: ceiling
+      size: [1, 1, 4]  
+      terrain: baseTerrain  
+    mapName: RBASE_04
+  - type: STR_GENERAL_STORES
+    spriteShape: 1
+    spriteFacility: 24
+    buildCost: 150000
+    buildTime: 10
+    monthlyCost: 7500
+    storage: 50
+    storageTiles:
+      - [0, 1, 3]
+      - [1, 1, 3]
+      - [2, 1, 3]
+      - [3, 1, 3]
+    mapName: RBASE_07
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 3]
+      blocks: 7
+    - type: ceiling
+      size: [1, 1, 4]  
+      terrain: baseTerrain    
+    rightClickActionType: 7
+  - type: STR_ALIEN_CONTAINMENT
+    requires:
+      - STR_ALIEN_CONTAINMENT
+    spriteShape: 1
+    spriteFacility: 25
+    buildCost: 400000
+    buildTime: 18
+    monthlyCost: 120000
+    aliens: 10
+    mapName: RBASE_08
+    rightClickActionType: 1
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 3]
+      blocks: 8
+    - type: ceiling
+      size: [1, 1, 4]  
+      terrain: baseTerrain  
+  - type: STR_LASER_DEFENSES
+    requires:
+      - STR_LASER_DEFENSE
+    spriteShape: 3
+    spriteFacility: 26
+    buildCost: 500000
+    buildTime: 24
+    monthlyCost: 50000
+    defense: 640
+    hitRatio: 70
+    fireSound: 8
+    hitSound: 10
+    mapName: RBASE_09
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 32
+        refund: 0
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 3]
+      blocks: 9
+    - type: ceiling
+      size: [1, 1, 4]  
+      terrain: baseTerrain  
+  - type: STR_PLASMA_DEFENSES
+    requires:
+      - STR_PLASMA_DEFENSE
+    spriteShape: 3
+    spriteFacility: 27
+    buildCost: 700000
+    buildTime: 34
+    monthlyCost: 32000
+    defense: 960
+    hitRatio: 50
+    fireSound: 9
+    hitSound: 10
+    buildCostItems:
+      STR_ELERIUM_115:
+        build: 64
+        refund: 0
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 3]
+      blocks: 10
+    - type: ceiling
+      size: [1, 1, 4]  
+      terrain: baseTerrain  
+    mapName: RBASE_10
+  - type: STR_GRAV_SHIELD
+    requires:
+      - STR_GRAV_SHIELD
+    grav: true
+    spriteShape: 2
+    spriteFacility: 29
+    buildCost: 1200000
+    buildTime: 38
+    monthlyCost: 240000
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 3]
+      blocks: 12
+    - type: ceiling
+      size: [1, 1, 4]  
+      terrain: baseTerrain  
+    mapName: RBASE_12
+  - type: STR_MIND_SHIELD
+    requires:
+      - STR_MIND_SHIELD
+    mind: true
+    spriteShape: 2
+    spriteFacility: 30
+    buildCost: 1300000
+    buildTime: 33
+    monthlyCost: 260000
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 3]
+      blocks: 13
+    - type: ceiling
+      size: [1, 1, 4]  
+      terrain: baseTerrain  
+    mapName: RBASE_13
+  - type: STR_PSIONIC_LABORATORY
+    requires:
+      - STR_PSI_LAB
+    spriteShape: 1
+    spriteFacility: 31
+    buildCost: 750000
+    buildTime: 24
+    monthlyCost: 75000
+    psiLabs: 10
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 3]
+      blocks: 14
+    - type: ceiling
+      size: [1, 1, 4]  
+      terrain: baseTerrain  
+    mapName: RBASE_14
+    rightClickActionType: 5
+    provideBaseFunc: [PSI]
+  - type: STR_HYPER_WAVE_DECODER
+    requires:
+      - STR_HYPER_WAVE_DECODER
+    hyper: true
+    spriteShape: 2
+    spriteFacility: 32
+    buildCost: 1400000
+    buildTime: 26
+    monthlyCost: 140000
+    radarRange: 3059
+    radarChance: 40
+    verticalLevels:
+    - type: ground
+      size: [1, 1, 3]
+      blocks: 15
+    - type: ceiling
+      size: [1, 1, 4]  
+      terrain: baseTerrain  
+    mapName: RBASE_15
+  - type: STR_HANGAR
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 200000
+    buildTime: 25
+    monthlyCost: 40000
+    crafts: 1
+    mapName: RBASE_16

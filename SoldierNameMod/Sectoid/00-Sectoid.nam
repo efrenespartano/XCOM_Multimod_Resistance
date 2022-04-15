@@ -1,0 +1,46 @@
+lookWeights:
+  - 30
+  - 30
+  - 20
+  - 20
+maleFirst:
+  - Ez 
+  - Lia 
+  - Zuran 
+  - Azrah 
+  - Lium 
+  - Orel 
+  - Pediam 
+  - Gusfa
+  - Adin 
+  - Heni 
+  - Azerzar 
+  - Azrani 
+  - Zaah
+femaleFirst:
+  - Ez 
+  - Lia 
+  - Zuran 
+  - Azrah 
+  - Lium 
+  - Orel 
+  - Pediam 
+  - Gusfa
+  - Adin 
+  - Heni 
+  - Azerzar 
+  - Azrani 
+  - Zaah
+maleLast:
+  - Utor
+  - Zeh
+  - Urq
+  - Mitar
+  - Atan
+  - Hum
+  - Ter
+  - Zafar
+  - Gamar
+  - Jus
+  - Maser
+  - Ater

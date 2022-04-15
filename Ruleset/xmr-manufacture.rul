@@ -1,0 +1,445 @@
+manufacture:
+  - delete: STR_ALIEN_ALLOYS
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_MIND_PROBE
+  - delete: STR_PLASMA_BEAM
+  - delete: STR_FUSION_BALL_LAUNCHER
+  - delete: STR_FUSION_BALL
+  - delete: STR_UFO_POWER_SOURCE
+  - delete: STR_UFO_NAVIGATION
+  - delete: STR_AVENGER
+  - delete: STR_PSI_AMP
+  - delete: STR_HWP_FUSION_BOMB
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_PERSONAL_ARMOR
+  - delete: STR_TANK_LASER_CANNON
+  - delete: STR_FIRESTORM
+  - delete: STR_LIGHTNING
+  - delete: STR_POWER_SUIT
+  - delete: STR_FLYING_SUIT
+  - delete: STR_LASER_CANNON
+  - name: STR_DISMANTLE_PLASMA_RIFLE_GL
+    time: 2
+    category: STR_WEAPON
+    requires:
+      - STR_ACID_GL
+    requiredItems:
+      STR_PLASMA_RIFLE_GL: 1
+    producedItems:
+      STR_ACID_GL: 1
+      STR_PLASMA_RIFLE: 1
+  - name: STR_DISMANTLE_PLASMA_RIFLE_SG
+    time: 2
+    category: STR_WEAPON
+    requires:
+      - STR_ACID_SG
+    requiredItems:
+      STR_PLASMA_RIFLE_SG: 1
+    producedItems:
+      STR_ACID_SG: 1
+      STR_PLASMA_RIFLE: 1
+  - name: STR_PLASMA_RIFLE_GL
+    time: 2
+    category: STR_WEAPON
+    requires:
+      - STR_ACID_GL
+    requiredItems:
+      STR_PLASMA_RIFLE: 1
+      STR_ACID_GL: 1
+  - name: STR_PLASMA_RIFLE_SG
+    time: 2
+    category: STR_WEAPON
+    requires:
+      - STR_ACID_SG
+    requiredItems:
+      STR_PLASMA_RIFLE: 1
+      STR_ACID_SG: 1
+  - name: STR_DISMANTLE_MD_RIFLE_GL
+    time: 2
+    category: STR_WEAPON
+    requires:
+      - STR_MD_RIFLE
+      - STR_ACID_GL
+    requiredItems:
+      STR_MD_RIFLE_GL: 1
+    producedItems:
+      STR_ACID_GL: 1
+      STR_MD_RIFLE: 1
+  - name: STR_DISMANTLE_MD_RIFLE_SG
+    time: 2
+    category: STR_WEAPON
+    requires:
+      - STR_MD_RIFLE
+      - STR_ACID_SG
+    requiredItems:
+      STR_MD_RIFLE_SG: 1
+    producedItems:
+      STR_ACID_SG: 1
+      STR_MD_RIFLE: 1
+  - name: STR_MD_RIFLE_GL
+    time: 2
+    category: STR_WEAPON
+    requires:
+      - STR_MD_RIFLE
+      - STR_ACID_GL
+    requiredItems:
+      STR_MD_RIFLE: 1
+      STR_ACID_GL: 1
+  - name: STR_MD_RIFLE_SG
+    time: 2
+    category: STR_WEAPON
+    requires:
+      - STR_MD_RIFLE
+      - STR_ACID_SG
+    requiredItems:
+      STR_MD_RIFLE: 1
+      STR_ACID_SG: 1
+  - name: STR_ACID_GL_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_ACID_GL
+    space: 4
+    time: 10
+    cost: 6000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_ACID_SG_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_ACID_SG
+    space: 4
+    time: 10
+    cost: 6000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_ACID_GL
+    category: STR_EQUIPMENT
+    requires:
+      - STR_ACID_GL
+    space: 4
+    time: 10
+    cost: 6000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_ACID_SG
+    category: STR_EQUIPMENT
+    requires:
+      - STR_ACID_SG
+    space: 4
+    time: 10
+    cost: 6000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_SMOKE_GRENADE
+    category: STR_WEAPON
+    requires:
+      - STR_SMOKE_GRENADE
+    space: 4
+    time: 10
+    cost: 102
+  - name: STR_ALLOY_ARMOR
+    category: STR_PERSONAL_ARMOR
+    requires:
+      - STR_ALLOY_ARMOR
+    space: 4
+    time: 100
+    cost: 10200
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4
+  - name: STR_MD_MG
+    requires:
+      - STR_MD_MG
+    category: STR_WEAPON
+    space: 4
+    time: 220
+    cost: 122000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_MD_MG_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_MD_MG
+    space: 4
+    time: 10
+    cost: 6000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_ELERIUM_115: 1
+  - name: STR_MD_RIFLE
+    category: STR_WEAPON
+    requires:
+      - STR_MD_RIFLE
+    space: 4
+    time: 180
+    cost: 88000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_MD_RIFLE_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_MD_RIFLE
+    space: 4
+    time: 10
+    cost: 3000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+      STR_ELERIUM_115: 1
+  - name: STR_MD_PISTOL
+    category: STR_WEAPON
+    requires:
+      - STR_MD_PISTOL
+    space: 3
+    time: 160
+    cost: 56000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_MD_PISTOL_CLIP
+    category: STR_AMMUNITION
+    requires:
+      - STR_MD_PISTOL
+    space: 4
+    time: 10
+    cost: 2000
+    requiredItems:
+      STR_ELERIUM_115: 1
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_CONTAINER_UNPACK
+    category: STR_UNPACKING
+    requires:
+      - STR_CONTAINER
+    time: 5
+    cost: 200
+    requiredItems:
+      STR_CONTAINER: 1
+    producedItems: {} 
+    randomProducedItems:
+      - [10, {}]
+      - [30, {STR_ELERIUM_115: 1}]
+      - [25, {STR_ELERIUM_115: 2}]
+      - [20, {STR_ELERIUM_115: 3}]
+      - [15, {STR_ELERIUM_115: 4}]
+  - name: STR_UFO_POWER_SOURCE
+    category: STR_UFO_COMPONENT
+    space: 22
+    time: 1400
+    cost: 130000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 5
+      STR_ELERIUM_115: 16
+  - name: STR_UFO_NAVIGATION
+    category: STR_UFO_COMPONENT
+    space: 18
+    time: 1600
+    cost: 150000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 3
+  - name: STR_CYBERDISC_TERRORIST
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    space: 10
+    time: 1200
+    cost: 550000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 20
+      STR_ELERIUM_115: 30
+  - name: STR_HEAVY_PLASMA
+    category: STR_WEAPON
+    space: 4
+    time: 220
+    cost: 122000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_HEAVY_PLASMA_CLIP
+    category: STR_AMMUNITION
+    space: 4
+    time: 10
+    cost: 6000
+    requiredItems:
+      STR_ELERIUM_115: 3
+  - name: STR_PLASMA_RIFLE
+    category: STR_WEAPON
+    space: 4
+    time: 180
+    cost: 88000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_PLASMA_RIFLE_CLIP
+    category: STR_AMMUNITION
+    space: 4
+    time: 10
+    cost: 3000
+    requiredItems:
+      STR_ELERIUM_115: 2
+  - name: STR_PLASMA_PISTOL
+    category: STR_WEAPON
+    space: 3
+    time: 160
+    cost: 56000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_PLASMA_PISTOL_CLIP
+    category: STR_AMMUNITION
+    space: 4
+    time: 10
+    cost: 2000
+    requiredItems:
+      STR_ELERIUM_115: 1
+  - name: STR_LARGE_LAUNCHER
+    category: STR_WEAPON
+    requires:
+      - STR_LARGE_LAUNCHER
+    space: 5
+    time: 220
+    cost: 90000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 2
+  - name: STR_SMALL_LAUNCHER
+    category: STR_WEAPON
+    requires:
+      - STR_SMALL_LAUNCHER
+    space: 3
+    time: 160
+    cost: 78000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1
+  - name: STR_STUN_BOMB
+    category: STR_AMMUNITION
+    requires:
+      - STR_SMALL_LAUNCHER
+    space: 2
+    time: 10
+    cost: 7000
+    requiredItems:
+      STR_ELERIUM_115: 1
+  - name: STR_EXPLOSIVE_BOMB
+    category: STR_AMMUNITION
+    requires:
+      - STR_SMALL_LAUNCHER
+    space: 2
+    time: 10
+    cost: 7000
+    requiredItems:
+      STR_ELERIUM_115: 1
+  - name: STR_I_BOMB
+    category: STR_AMMUNITION
+    requires:
+      - STR_SMALL_LAUNCHER
+    space: 2
+    time: 10
+    cost: 7000
+    requiredItems:
+      STR_ELERIUM_115: 1
+  - name: STR_ALIEN_GRENADE
+    category: STR_WEAPON
+    space: 2
+    time: 10
+    cost: 6700
+    requiredItems:
+      STR_ELERIUM_115: 2
+  - name: STR_MIND_PROBE
+    category: STR_EQUIPMENT
+    requires:
+      - STR_MIND_PROBE
+    space: 4
+    time: 120
+    cost: 262000
+    requiredItems:
+      STR_ELERIUM_115: 1
+  - name: STR_PLASMA_CANNON
+    category: STR_CRAFT_WEAPON
+    space: 4
+    time: 300
+    cost: 72000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 4 
+  - name: STR_PLASMA_CANNON_CLIP
+    category: STR_CRAFT_WEAPON
+    space: 4
+    time: 60
+    cost: 72000
+    requiredItems:
+      STR_ELERIUM_115: 8    
+  - name: STR_LASER_CANNON
+    category: STR_CRAFT_WEAPON
+    requires:
+      - STR_LASER_CANNON
+    space: 4
+    time: 300
+    cost: 72000
+    requiredItems:
+      STR_ELERIUM_115: 8
+  - name: STR_LASER_PISTOL
+    category: STR_WEAPON
+    requires:
+      - STR_LASER_PISTOL
+    space: 2
+    time: 180
+    cost: 8000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1  
+      STR_ELERIUM_115: 1
+    producedItems:   
+      STR_LASER_PISTOL: 1
+      STR_LASER_PISTOL_CLIP: 1
+  - name: STR_LASER_RIFLE
+    category: STR_WEAPON
+    requires:
+      - STR_LASER_RIFLE
+    space: 2
+    time: 200
+    cost: 20000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1 
+      STR_ELERIUM_115: 1 
+    producedItems:   
+      STR_LASER_RIFLE: 1
+      STR_LASER_RIFLE_CLIP: 1
+  - name: STR_HEAVY_LASER
+    category: STR_WEAPON
+    requires:
+      - STR_HEAVY_LASER
+    space: 2
+    time: 220
+    cost: 32000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 1  
+      STR_ELERIUM_115: 1
+    producedItems:   
+      STR_HEAVY_LASER: 1
+      STR_HEAVY_LASER_CLIP: 1
+  - name: STR_MOTION_SCANNER
+    category: STR_EQUIPMENT
+    requires:
+      - STR_MOTION_SCANNER
+    space: 2
+    time: 220
+    cost: 34000
+  - name: STR_MEDI_KIT
+    category: STR_EQUIPMENT
+    requires:
+      - STR_MEDI_KIT
+    space: 2
+    time: 220
+    cost: 28000
+  - name: STR_ASSAULT
+    category: STR_CRAFT
+    space: 14
+    time: 34000
+    cost: 900000
+    requiredItems:
+      STR_ALIEN_ALLOYS: 135
+      STR_UFO_POWER_SOURCE: 2
+      STR_UFO_NAVIGATION: 2
+    requires:
+      - STR_NEW_FIGHTER_TRANSPORTER
+    listOrder: 3500

@@ -1,0 +1,98 @@
+countries:
+  - delete: STR_USA
+  - delete: STR_RUSSIA
+  - delete: STR_UK
+  - delete: STR_FRANCE
+  - delete: STR_GERMANY
+  - delete: STR_CANADA
+  - delete: STR_ITALY
+  - delete: STR_SPAIN
+  - delete: STR_CHINA
+  - delete: STR_JAPAN
+  - delete: STR_INDIA
+  - delete: STR_EGYPT
+  - delete: STR_BRAZIL
+  - delete: STR_AUSTRALIA
+  - delete: STR_NIGERIA
+  - delete: STR_SOUTH_AFRICA
+  - type: STR_NATO_SECTOR_1
+    fundingBase: 100
+    fundingCap: 2000
+    labelLon: 100
+    labelLat: -35
+    areas: #China
+      - [75, 98, -50, -30]
+      - [98, 122, -50, -22]
+      - [122, 133, -54, -40]
+  - type: STR_NATO_SECTOR_2
+    fundingBase: 100
+    fundingCap: 1000
+    labelLon: 305
+    labelLat: 5
+    areas: #Brasil y Argentina
+      - [290, 302, -2.5, 17]
+      - [302, 310, -2.5, 22]
+      - [310, 325, 0, 24]
+      - [305, 313, 22, 32]
+      - [289, 306, 22, 39] 
+      - [288, 298, 39, 52] 
+      - [291.5, 295.5, 52.5, 55.5] 
+      - [289, 302, 16, 21] 
+  - type: STR_NATO_SECTOR_3
+    fundingBase: 150
+    fundingCap: 1500
+    labelLon: 135
+    labelLat: 25
+    areas: #Australia
+      - [110, 156, 10, 40]
+  - type: STR_WARSAW_PACT_SECTOR_4
+    fundingBase: 200
+    fundingCap: 2000
+    labelLon: 260
+    labelLat: -55
+    areas: #Canada y EEUU
+      - [219, 230, -70, -55]
+      - [230, 305, -75, -40]
+      - [235, 255, -49, -32]
+      - [255, 277.5, -49, -29]
+      - [260, 265, -29, -26]
+      - [277, 280, -32, -25]
+      - [277.5, 286, -44, -32]
+      - [286, 292.5, -45.5, -40]
+  - type: STR_WARSAW_PACT_SECTOR_5
+    fundingBase: 250
+    fundingCap: 2500
+    labelLon: 11.5
+    labelLat: -50
+    areas: #Alemania, Italia, España, Francia
+      - [6, 15, -55, -47.5]
+      - [353, 3, -43, -36.5]
+      - [351, 353, -43, -42.25]
+      - [7, 15, -46.5, -43]
+      - [11, 18, -43, -37] 
+      - [355, 7, -50, -43]     
+  - type: STR_WARSAW_PACT_SECTOR_6
+    fundingBase: 120
+    fundingCap: 1200
+    labelLon: 25
+    labelLat: 30
+    areas: #Surafrica
+      - [15, 25, 26, 35]
+      - [25, 32.5, 22, 35]
+      - [1.11, 32, 0.26, 26.47]
+  - type: STR_WARSAW_PACT_SECTOR_7
+    fundingBase: 120
+    fundingCap: 1200
+    labelLon: 227
+    labelLat: 2.4
+    areas: #Pacifico
+      - [176, 210, -12, -6]
+      - [189, 232, -6, 15]
+  - type: STR_WARSAW_PACT_SECTOR_8
+    fundingBase: 120
+    fundingCap: 1200
+    labelLon: 201
+    labelLat: 0.36
+    areas: #Antartica
+      - [161, 277, 69, 74]
+      - [223, 277, 69, 44]

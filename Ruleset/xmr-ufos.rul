@@ -1,0 +1,161 @@
+ufos:
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_BATTLESHIP
+  - delete: STR_SMALL_SCOUT
+  - type: STR_EXCAVATOR
+    size: STR_MEDIUM
+    modSprite: InterceptionExcavator
+    damageMax: 800
+    speedMax: 3600
+    power: 40
+    range: 46
+    score: 500
+    reload: 32
+    fireSound: 8
+    breakOffTime: 2000
+    battlescapeTerrainData:
+      name: EXCAVATORUFO
+      mapDataSets:
+        - BLANKS
+        - THUNDERM
+        - U_PART
+        - TBITS
+      mapBlocks:
+        - name: EXCAVATORUFO
+          width: 20
+          length: 20
+  - type: STR_FIGHTER
+    modSprite: InterceptionFighter
+    size: STR_SMALL
+    damageMax: 250
+    speedMax: 4200
+    power: 60
+    range: 46
+    score: 175
+    reload: 32
+    fireSound: 8
+    breakOffTime: 2200
+    battlescapeTerrainData:
+      name: FIGHTERUFO
+      mapDataSets:
+        - BLANKS
+        - LIGHTNINM
+        - THUNDERM
+        - U_PART
+      mapBlocks:
+        - name: FIGHTERUFO
+          width: 10
+          length: 10
+  - type: STR_MEDIUM_SCOUT
+    size: STR_SMALL
+    modSprite: InterceptionLightning
+    damageMax: 200
+    speedMax: 3600
+    power: 20
+    range: 46
+    score: 75
+    reload: 32
+    fireSound: 8
+    breakOffTime: 250
+    battlescapeTerrainData:
+      name: LIGHTNINUFO
+      mapDataSets:
+        - BLANKS
+        - LIGHTNINM
+        - THUNDERM
+        - U_PART
+      mapBlocks:
+        - name: LIGHTNINUFO
+          width: 20
+          length: 10
+  - type: STR_LARGE_SCOUT
+    size: STR_SMALL
+    modSprite: InterceptionAvenger
+    damageMax: 250
+    speedMax: 4200
+    power: 40
+    range: 46
+    score: 125
+    reload: 32
+    fireSound: 8
+    breakOffTime: 300
+    battlescapeTerrainData:
+      name: THUNDERUFO
+      mapDataSets:
+        - BLANKS
+        - THUNDERM
+        - U_PART
+      mapBlocks:
+        - name: THUNDERUFO
+          width: 20
+          length: 10
+  - type: STR_TERROR_SHIP
+    size: STR_MEDIUM
+    modSprite: InterceptionAssault
+    damageMax: 800
+    speedMax: 3800
+    power: 120
+    range: 46
+    score: 500
+    reload: 32
+    fireSound: 8
+    breakOffTime: 2000
+    battlescapeTerrainData:
+      name: ASSAULTUFO
+      mapDataSets:
+        - BLANKS
+        - THUNDERM
+        - U_PART
+        - TBITS
+      mapBlocks:
+        - name: ASSAULTUFO
+          width: 20
+          length: 20
+  - type: STR_SUPPLY_SHIP
+    size: STR_LARGE
+    modSprite: InterceptionSupply
+    damageMax: 1000
+    speedMax: 3600
+    power: 80
+    range: 46
+    score: 400
+    reload: 32
+    fireSound: 8
+    breakOffTime: 3000
+    battlescapeTerrainData:
+      name: SUPPLYUFO
+      mapDataSets:
+        - BLANKS
+        - THUNDERM
+        - U_PART
+        - TBITS
+      mapBlocks:
+        - name: SUPPLYUFO
+          width: 20
+          length: 20
+  - type: STR_MINING_BASE
+    size: STR_LARGE
+    battlescapeTerrainData:
+      name: BASEUFO
+      mapDataSets:
+        - BLANKS
+        - THUNDERM
+        - U_PART
+        - TBITS
+      mapBlocks:
+        - name: BASEUFO
+          width: 20
+          length: 20
+  - type: STR_RESEARCH_BASE
+    size: STR_LARGE
+    battlescapeTerrainData:
+      name: IDT_HUMAN_STATION
+      mapDataSets:
+        - BLANKS
+        - MARS_SAND
+        - IDT_RESEARCH_STATION
+      mapBlocks:
+        - name: IDT_HUMAN_STATION
+          width: 30
+          length: 30

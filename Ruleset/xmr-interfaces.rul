@@ -1,0 +1,36 @@
+interfaces:
+  - type: geoscapeMenu
+    elements:
+      - id: text
+        color: 90   # yellow
+      - id: button
+        color: 39   # bright green
+  - type: geoscape
+    backgroundImage: BACK01.SCR
+    elements:
+      - id: textLoad
+        color: 175   # minty green
+      - id: button
+        color: 175   # main button color
+        color2: 133  # letter color
+      - id: text # Clock and date, requires to have 5 colors in the shade
+        color: 133   # 244
+      - id: slackingIndicator
+        color: 175   # even lighter blue
+        color2: 175  # minty green
+        custom: -12  # above Intercept button
+      - id: genericWindow
+        color: 245   # bright green
+      - id: genericText
+        color: 176   # bright green
+        color2: 239  # 138
+        border: 182  # 22
+      - id: genericButton1
+        color: 147   # minty green
+      - id: genericButton2
+        color: 245   # bright green
+      - id: errorPalette
+        color: 6     # brown
+      - id: errorMessage
+        color: 245   # bright green
+

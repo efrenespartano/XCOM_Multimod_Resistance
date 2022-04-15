@@ -1,0 +1,8 @@
+﻿# Metadata file for XCOM: Multimod: Resistance OpenXcom mod
+name: "XCOM Multimod: Resistance"
+version: 1.0
+author: cevaralien
+description: "Sequel of XCOM Multimod, from the perspective of the Aliens."
+master: xcom1
+id: "xcommresistance"
+requiredExtendedVersion: "6.7.2"

@@ -1,0 +1,636 @@
+research:
+  - delete: STR_PLASMA_DEFENSE
+  - delete: STR_FUSION_MISSILE
+  - delete: STR_FUSION_DEFENSE
+  - delete: STR_PSI_AMP
+  - delete: STR_PLASMA_CANNON_DEP2
+  - delete: STR_PLASMA_CANNON_DEP1
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_STUN_BOMB
+  - delete: STR_BLASTER_LAUNCHER  
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_PLASMA_DEFENSE
+  - delete: STR_ALIEN_ORIGINS
+  - delete: STR_SECTOID_COMMANDER
+  - delete: STR_SECTOID_LEADER
+  - delete: STR_SECTOID_ENGINEER
+  - delete: STR_SECTOID_MEDIC
+  - delete: STR_SECTOID_NAVIGATOR
+  - delete: STR_SECTOID_SOLDIER
+  - delete: STR_CYBERDISC_TERRORIST
+  - delete: STR_SNAKEMAN_COMMANDER
+  - delete: STR_SNAKEMAN_LEADER
+  - delete: STR_SNAKEMAN_ENGINEER
+  - delete: STR_SNAKEMAN_NAVIGATOR
+  - delete: STR_SNAKEMAN_SOLDIER
+  - delete: STR_CHRYSSALID_TERRORIST
+  - delete: STR_ETHEREAL_COMMANDER
+  - delete: STR_ETHEREAL_LEADER
+  - delete: STR_ETHEREAL_SOLDIER
+  - delete: STR_SECTOPOD_TERRORIST
+  - delete: STR_MUTON_ENGINEER
+  - delete: STR_MUTON_NAVIGATOR
+  - delete: STR_MUTON_SOLDIER
+  - delete: STR_SILACOID_TERRORIST
+  - delete: STR_CELATID_TERRORIST
+  - delete: STR_FLOATER_COMMANDER
+  - delete: STR_FLOATER_LEADER
+  - delete: STR_FLOATER_ENGINEER
+  - delete: STR_FLOATER_MEDIC
+  - delete: STR_FLOATER_NAVIGATOR
+  - delete: STR_FLOATER_SOLDIER
+  - delete: STR_REAPER_TERRORIST
+  - delete: STR_PSI_LAB
+  - delete: STR_MIND_SHIELD
+  - delete: STR_MIND_PROBE
+  - delete: STR_PERSONAL_ARMOR
+  - delete: STR_UFO_POWER_SOURCE
+  - delete: STR_UFO_NAVIGATION
+  - delete: STR_UFO_CONSTRUCTION
+  - delete: STR_HYPER_WAVE_DECODER
+  - delete: STR_COMMANDER_PLUS
+  - delete: STR_LEADER_PLUS
+  - delete: STR_POWER_SUIT
+  - delete: STR_FLYING_SUIT
+  - delete: STR_PLASMA_CANNON
+  - delete: STR_NEW_FIGHTER_CRAFT
+  - delete: STR_NEW_FIGHTER_TRANSPORTER
+  - delete: STR_ULTIMATE_CRAFT
+  - delete: STR_GRAV_SHIELD
+  - delete: STR_SECTOID_CORPSE
+  - delete: STR_FLOATER_CORPSE
+  - delete: STR_MUTON_CORPSE
+  - delete: STR_SNAKEMAN_CORPSE
+  - delete: STR_ETHEREAL_CORPSE
+  - delete: STR_CHRYSSALID_CORPSE
+  - delete: STR_CELATID_CORPSE
+  - delete: STR_SILACOID_CORPSE
+  - delete: STR_REAPER_CORPSE
+  - delete: STR_SECTOPOD_CORPSE
+  - delete: CYBERDISC_CORPSE
+  - delete: STR_ELERIUM_115
+  - delete: STR_ALIEN_ALLOYS
+  - delete: STR_LASER_WEAPONS
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_SECTOID
+  - delete: STR_MUTON
+  - delete: STR_FLOATER
+  - delete: STR_CYBERDISC
+  - delete: STR_ETHEREAL
+  - delete: STR_SNAKEMAN
+  - delete: STR_CHRYSSALID
+  - delete: STR_CELATID
+  - delete: STR_SILACOID
+  - delete: STR_SECTOPOD
+  - delete: STR_ALIEN_HARVEST
+  - delete: STR_ALIEN_ABDUCTION
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_BATTLESHIP
+  - delete: STR_SMALL_SCOUT
+  - delete: STR_LASER_CANNON
+  - delete: STR_ALIEN_FOOD
+  - delete: STR_EXAMINATION_ROOM
+  - delete: STR_ALIEN_SURGERY
+  - delete: STR_ALIEN_REPRODUCTION
+  - delete: STR_ALIEN_ENTERTAINMENT
+  - delete: STR_ALIEN_HABITAT
+  - delete: STR_THE_MARTIAN_SOLUTION
+  - delete: STR_CYDONIA_OR_BUST
+  - delete: STR_LEADER_PLUS
+  - delete: STR_COMMANDER_PLUS
+  - name: STR_ACID_WEAPONS
+    cost: 200
+    points: 10
+    dependencies:
+      - STR_RIFLE_S
+      - STR_RIFLE_G    
+  - name: STR_ACID_SG
+    cost: 180
+    points: 10
+    dependencies:
+      - STR_RIFLE_S
+      - STR_ACID_WEAPONS
+  - name: STR_ACID_GL
+    cost: 180
+    points: 10
+    dependencies:
+      - STR_RIFLE_G
+      - STR_ACID_WEAPONS
+  - name: STR_CONTAINER
+    cost: 10
+    points: 1
+    needItem: true
+  - name: STR_ROCKET_LAUNCHER
+    cost: 120
+    points: 10
+    needItem: true
+  - name: STR_MD_RIFLE
+    cost: 220
+    points: 10
+    dependencies:
+      - STR_MD_WEAPONS
+  - name: STR_MD_PISTOL
+    cost: 180
+    points: 10
+    dependencies:
+      - STR_MD_WEAPONS
+  - name: STR_MD_MG
+    cost: 220
+    points: 10
+    dependencies:
+      - STR_MD_RIFLE
+  - name: STR_MD_WEAPONS
+    cost: 320
+    points: 10
+    dependencies:
+      - STR_AA_AP_AMMO
+      - STR_ARMOR_PRE
+  - name: STR_NEW_FIGHTER_TRANSPORTER
+    cost: 420
+    points: 10
+    dependencies:
+      - STR_TERROR_SHIP
+      - STR_FIGHTER
+  - name: STR_ARMOR_PRE
+    dependencies:
+      - STR_POWER_SUIT_D
+      - STR_FLYING_SUIT_D  
+  - name: STR_UNIT_ARMORED
+    cost: 420
+    points: 10
+    dependencies:
+      - STR_POWER_SUIT_D
+      - STR_FLYING_SUIT_D  
+      - STR_AA_AP_AMMO
+  - name: STR_AA_AP_AMMO
+    cost: 220
+    points: 10
+    dependencies:
+    - STR_RIFLE
+    - STR_RIFLE_G
+    - STR_RIFLE_S
+    - STR_MACHINE_GUN
+  - name: STR_MOTION_SCANNER
+    cost: 180
+    points: 20
+  - name: STR_MEDI_KIT
+    cost: 210
+    points: 20
+  - name: STR_LARGE_LAUNCHER
+    cost: 420
+    points: 10
+    dependencies:
+      - STR_SMALL_LAUNCHER
+  - name: STR_SMALL_LAUNCHER
+    cost: 310
+    points: 30
+  - name: STR_MIND_PROBE
+    cost: 500
+    points: 25
+  - name: STR_PISTOL
+    cost: 100
+    points: 10
+    needItem: true
+    unlocks:
+      - STR_AA_AP_AMMO
+  - name: STR_RIFLE
+    cost: 100
+    points: 10
+    needItem: true
+    unlocks:
+      - STR_AA_AP_AMMO
+  - name: STR_RIFLE_G
+    cost: 100
+    points: 10
+    needItem: true
+    unlocks:
+      - STR_AA_AP_AMMO
+      - STR_ACID_WEAPONS
+  - name: STR_RIFLE_S
+    cost: 100
+    points: 10
+    needItem: true
+    unlocks:
+      - STR_AA_AP_AMMO
+      - STR_ACID_WEAPONS
+  - name: STR_MACHINE_GUN
+    cost: 100
+    points: 10
+    needItem: true
+    unlocks:
+      - STR_AA_AP_AMMO
+  - name: STR_LASER_PISTOL
+    cost: 180
+    points: 10
+    needItem: true
+  - name: STR_LASER_RIFLE
+    cost: 280
+    points: 10
+    needItem: true
+  - name: STR_HEAVY_LASER
+    cost: 360
+    points: 10
+    needItem: true
+  - name: STR_LASER_CANNON
+    cost: 420
+    points: 15
+    needItem: true
+  - name: STR_LASER_DEFENSE
+    cost: 510
+    points: 15
+    dependencies:
+      - STR_LASER_CANNON
+  - name: STR_GRENADE
+    cost: 100
+    points: 10
+    needItem: true
+  - name: STR_SMOKE_GRENADE
+    cost: 100
+    points: 10
+    needItem: true
+  - name: STR_ELECTRO_FLARE
+    cost: 100
+    points: 10
+  - name: STR_GRAV_SHIELD
+    cost: 430
+    points: 25
+    dependencies:
+      - STR_TERROR_SHIP
+  - name: STR_MIND_SHIELD
+    cost: 360
+    points: 25
+    dependencies:
+      - STR_PSI_POWERS
+      - STR_MIND_PROBE
+  - name: STR_PSI_POWERS
+    cost: 380
+    points: 25
+  - name: STR_PSI_LAB
+    cost: 260
+    points: 25
+    dependencies:
+      - STR_PSI_POWERS
+  - name: STR_HYPER_WAVE_DECODER
+    cost: 470
+    points: 25
+    dependencies:
+      - STR_HUMAN_SERGEANT
+  - name: STR_HOVERTANK_PLASMA
+    cost: 120
+    points: 50
+    lookup: STR_HOVERTANK_AUTOPSY
+    needItem: true
+  - name: STR_ALIEN_ORIGINS
+    cost: 400
+    points: 60
+    dependencies:
+      - STR_EXCAVATION_SITE
+      - STR_RESEARCH_SITE
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+  - name: STR_CYDONIA_OR_BUST
+    cost: 600
+    points: 60
+    unlockFinalMission: true
+    needItem: true
+  - name: STR_KEVLAR_VEST
+    cost: 220
+    points: 20
+    dependencies:
+      - STR_UNIT_ARMORED
+  - name: STR_ALLOY_ARMOR
+    cost: 220
+    points: 20
+    dependencies:
+      - STR_UNIT_ARMORED
+  - name: STR_PERSONAL_ARMOR
+    cost: 220
+    points: 20
+    dependencies:
+      - STR_UNIT_ARMORED
+  - name: STR_SPACE_SUIT_D
+    cost: 140
+    points: 20
+    needItem: true
+  - name: STR_POWER_SUIT_D
+    cost: 220
+    points: 20
+    needItem: true
+    unlocks:
+      - STR_UNIT_ARMORED  
+      - STR_ARMOR_PRE
+  - name: STR_FLYING_SUIT_D
+    cost: 240
+    points: 20
+    needItem: true
+    unlocks:  
+      - STR_UNIT_ARMORED 
+      - STR_ARMOR_PRE
+  - name: STR_HOVERTANK_PLASMA
+    cost: 100
+    points: 50
+    lookup: STR_HOVERTANK
+    needItem: true
+  - name: STR_HUMAN_AUTOPSY
+    points: 50
+    needItem: true
+    unlocks:
+       - STR_ALIEN_CONTAINMENT
+  - name: STR_HOVERTANK_PLASMA_AUTOPSY
+    points: 50
+    needItem: true
+  - name: STR_CORPSE
+    cost: 70
+    points: 50
+    lookup: STR_HUMAN_AUTOPSY
+    needItem: true
+  - name: STR_HUMAN
+    points: 50
+    needItem: true
+  - name: STR_EXCAVATION_SITE
+    points: 50
+    needItem: true
+  - name: STR_RESEARCH_SITE
+    points: 50
+    needItem: true
+  - name: STR_ALIEN_RESEARCH
+    points: 50
+    needItem: true
+  - name: STR_ALIEN_INFILTRATION
+    points: 50
+    needItem: true
+  - name: STR_ALIEN_BASE
+    points: 50
+    needItem: true
+  - name: STR_ALIEN_TERROR
+    points: 50
+    needItem: true
+  - name: STR_ALIEN_RETALIATION
+    points: 50
+    needItem: true
+  - name: STR_ALIEN_SUPPLY
+    points: 50
+    needItem: true
+  - name: STR_EXCAVATOR
+    points: 50
+    needItem: true
+  - name: STR_FIGHTER
+    points: 50
+    needItem: true
+  - name: STR_MEDIUM_SCOUT
+    points: 50
+    needItem: true
+  - name: STR_LARGE_SCOUT
+    points: 50
+    needItem: true
+  - name: STR_TERROR_SHIP
+    points: 50
+    needItem: true
+  - name: STR_SUPPLY_SHIP
+    points: 50
+    needItem: true
+  - name: STR_ALIEN_CONTAINMENT
+    cost: 120
+    points: 6
+    dependencies:
+      - STR_HUMAN_AUTOPSY
+  - name: STR_HUMAN_ROOKIE
+    cost: 80
+    points: 50
+    lookup: STR_HUMAN
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+  - name: STR_HUMAN_SQUADDIE
+    cost: 80
+    points: 50
+    lookup: STR_HUMAN
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+  - name: STR_HUMAN_CORPORAL
+    cost: 80
+    points: 50
+    lookup: STR_HUMAN
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_ALIEN_RESEARCH
+  - name: STR_HUMAN_SERGEANT
+    cost: 80
+    points: 50
+    lookup: STR_HUMAN
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_ALIEN_RESEARCH
+      - STR_EXCAVATION_SITE
+  - name: STR_HUMAN_LIEUTENANT
+    cost: 80
+    points: 50
+    lookup: STR_HUMAN
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_RETALIATION
+      - STR_EXCAVATION_SITE
+      - STR_RESEARCH_SITE
+  - name: STR_HUMAN_CAPTAIN
+    cost: 80
+    points: 50
+    lookup: STR_HUMAN
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_ALIEN_BASE
+      - STR_EXCAVATION_SITE
+      - STR_RESEARCH_SITE
+  - name: STR_HUMAN_PSI
+    cost: 100
+    points: 50
+    lookup: STR_HUMAN
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_PSI_POWERS
+      - STR_ALIEN_TERROR
+  - name: STR_HUMAN_ROOKIE_A
+    cost: 80
+    points: 50
+    lookup: STR_HUMAN
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+  - name: STR_HUMAN_SQUADDIE_A
+    cost: 80
+    points: 50
+    lookup: STR_HUMAN
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+  - name: STR_HUMAN_CORPORAL_A
+    cost: 80
+    points: 50
+    lookup: STR_HUMAN
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_ALIEN_RESEARCH
+  - name: STR_HUMAN_SERGEANT_A
+    cost: 80
+    points: 50
+    lookup: STR_HUMAN
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_ALIEN_RESEARCH
+      - STR_EXCAVATION_SITE
+  - name: STR_HUMAN_LIEUTENANT_A
+    cost: 80
+    points: 50
+    lookup: STR_HUMAN
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_RETALIATION
+      - STR_EXCAVATION_SITE
+      - STR_RESEARCH_SITE
+  - name: STR_HUMAN_CAPTAIN_A
+    cost: 80
+    points: 50
+    lookup: STR_HUMAN
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_ALIEN_RESEARCH
+      - STR_ALIEN_TERROR
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_ALIEN_BASE
+      - STR_EXCAVATION_SITE
+      - STR_RESEARCH_SITE
+  - name: STR_HUMAN_PSI_A
+    cost: 100
+    points: 50
+    lookup: STR_HUMAN
+    needItem: true
+    destroyItem: true
+    getOneFree:
+      - STR_FIGHTER
+      - STR_EXCAVATOR
+      - STR_MEDIUM_SCOUT
+      - STR_LARGE_SCOUT
+      - STR_TERROR_SHIP
+      - STR_SUPPLY_SHIP
+      - STR_PSI_POWERS
+      - STR_ALIEN_TERROR

@@ -1,0 +1,203 @@
+extended:
+  tags:
+    RuleItem:
+      SPECIAL_WOUND: int
+      WOUND_FACTOR: int
+    RuleArmor:
+      ROBOTIC: int
+      TOPWOUND: int
+    BattleUnit:
+      LESSFIRING: int
+      LESSTIME: int
+  scripts:   
+    damageUnit:
+      - offset: -41
+        code: |
+          var int wounds;
+          var int special;
+          var int woundFactor;
+          var int ranhealth;
+          var int health;
+          var int hinit;
+          var int lowv;
+          var int higv;
+          var int htmp;
+          var int robot;
+          var int firesol;
+          var int timesol;
+          var int firetmp;
+          var int mxhlt;
+          var int hlt;
+          var ptr RuleItem itemRuleset;
+          var ptr RuleArmor typearmor;
+          
+          damaging_item.getRuleItem itemRuleset;
+          unit.getRuleArmor typearmor;
+          itemRuleset.getTag special Tag.SPECIAL_WOUND;  
+          typearmor.getTag robot Tag.ROBOTIC;          
+                 
+          set hinit to_health;
+                                             
+          if eq robot 1;
+            set lowv 5;
+            set higv 20;
+            set htmp 2;  
+          else eq battle_action BA_HIT;
+            set lowv 10;
+            set higv 20;                        
+          else or eq part BODYPART_LEFTARM eq part BODYPART_RIGHTARM;
+            set lowv 2;
+            set higv 3;
+            set htmp 1;
+          else or eq part BODYPART_LEFTLEG eq part BODYPART_RIGHTLEG;
+            set lowv 2;
+            set higv 3;
+            set htmp 3;
+          else eq part BODYPART_TORSO;
+            set lowv 5;
+            set higv 20;
+            set htmp 2;
+          else eq part BODYPART_HEAD;
+            set lowv 10;
+            set higv 20;
+            set htmp 2;
+          end;     
+                     
+          battle_game.randomRange ranhealth lowv higv;     
+         
+          set health to_health;
+          mul health ranhealth;
+          div health 10;
+          set to_health health;
+          
+          if or eq htmp 1 eq htmp 3;
+            set wounds hinit;
+          else eq htmp 2;
+            set wounds to_health;
+          end;             
+            
+          set to_wound 0;
+            
+          if ge to_health 5;             
+            if eq special 1;
+              set to_wound 0;      
+            else eq special 2;
+              itemRuleset.getTag woundFactor Tag.WOUND_FACTOR;
+              div wounds woundFactor;
+              set to_wound wounds;
+            else and neq special 1 neq special 2;          
+              div wounds 5;
+              set to_wound wounds;
+            end;
+          end; 
+          
+          if or eq htmp 1 eq htmp 3; 
+            unit.getHealthMax mxhlt;
+            set hlt to_health;
+            mul hlt 100;
+            div hlt mxhlt;
+                       
+            if ge hlt 25;
+              if eq htmp 1;
+                unit.Stats.getFiring firesol;
+                set firetmp firesol;
+                mul firetmp to_health;
+                div firetmp 100;
+                sub firesol firetmp;
+                unit.Stats.setFiring firesol;
+                unit.setTag Tag.LESSFIRING firesol;
+              else eq htmp 3;
+                unit.Stats.getTimeUnits timesol;
+                set firetmp timesol;
+                mul firetmp to_health;
+                div firetmp 100;
+                sub timesol firetmp;
+                unit.Stats.setTimeUnits timesol;  
+                unit.setTag Tag.LESSTIME timesol;
+              end;
+            end;              
+          end;            
+          return;
+      - offset: -40
+        code: |
+          var int wounds;
+          var int health;
+          var int twound;
+          var int robot;
+          var ptr RuleArmor typearmor;
+          
+          unit.getRuleArmor typearmor;
+          typearmor.getTag twound Tag.TOPWOUND;   
+          typearmor.getTag robot Tag.ROBOTIC; 
+          
+          if neq robot 1;
+            unit.getFatalwoundsTotal wounds;
+            unit.getHealthMax health;
+            add wounds to_wound;
+            if ge wounds twound;
+              unit.setStun health;
+            end;
+          end;
+          return;  
+    returnFromMissionUnit:
+      - offset: 1
+        code: |
+          var int firesol;
+          var int timesol;
+          
+          unit.getTag firesol Tag.LESSFIRING;
+          unit.getTag timesol Tag.LESSTIME;    
+                
+          if neq firesol 0;
+            soldier.Stats.setFiring firesol;
+          else neq timesol 0;
+            soldier.Stats.setTimeUnits timesol;  
+          end;
+          return;
+armors:
+# Civilians
+  - type: CIVM_ARMOR
+    tags:
+      TOPWOUND: 9   
+  - type: CIVF_ARMOR
+    tags:
+      TOPWOUND: 9     
+
+# Soldiers
+  - type: STR_KEVLAR_VEST_UC
+    tags:
+      TOPWOUND: 9   
+  - type: STR_ALLOY_ARMOR_UC
+    tags:
+      TOPWOUND: 9   
+  - type: STR_P_ARMOR_UC
+    tags:
+      TOPWOUND: 12   
+  - type: STR_SPACE_SUIT_UC
+    tags:
+      TOPWOUND: 9  
+  - type: STR_POWER_SUIT_UC
+    tags:
+      TOPWOUND: 9   
+  - type: STR_FLYING_SUIT_UC
+    tags:
+      TOPWOUND: 9   
+
+# Aliens humanoids 
+  - type: STR_SECTOID_ARMOR_UC
+    tags:
+      TOPWOUND: 9   
+  - type: STR_FLOATER_ARMOR_UC
+    tags:
+      TOPWOUND: 9   
+  - type: STR_MUTON_ARMOR_UC
+    tags:
+      TOPWOUND: 12
+
+#Robots & non humanoids aliens & zombies
+  - type: STR_HOVERTANK_ARMOR_UC
+    tags:
+      ROBOTIC: 1
+  - type: STR_CYBERDISC_ARMOR_UC
+    tags:
+      ROBOTIC: 1

@@ -1,0 +1,77 @@
+soldierTransformation:
+  - name: STR_BUFF_SOLDIER
+    listOrder: 300
+    requires:
+      - STR_PSI_POWERS
+    requiresBaseFunc:
+      - PSI
+    producedSoldierType: STR_SOLDIER_PSI
+    keepSoldierArmor: true
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+    forbiddenPreviousTransformations:
+      - STR_BUFF_SOLDIER
+    requiredMinStats:
+      psiStrength: 45
+      psiSkill: 20
+    transferTime: 360
+    recoveryTime: 0
+    percentOverallStatChange:
+      psiSkill: -100
+    flatOverallStatChange:
+      psiSkill: 50
+    useRandomStats: false
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+  - name: STR_BUFF_SOLDIER_F
+    listOrder: 300
+    requires:
+      - STR_UNIT_ARMORED
+    requiresBaseFunc:
+      - IMP
+    producedSoldierType: STR_SOLDIER_FA
+    keepSoldierArmor: false
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER_F
+    forbiddenPreviousTransformations:
+      - STR_BUFF_SOLDIER_F
+    transferTime: 36
+    recoveryTime: 14
+    percentOverallStatChange:
+      health: 30
+    flatOverallStatChange:
+      reactions: 10
+    useRandomStats: false
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+  - name: STR_BUFF_SOLDIER_M
+    listOrder: 300
+    requires:
+      - STR_UNIT_ARMORED
+    requiresBaseFunc:
+      - IMP
+    producedSoldierType: STR_SOLDIER_MA
+    keepSoldierArmor: false
+    createsClone: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER_M
+    forbiddenPreviousTransformations:
+      - STR_BUFF_SOLDIER_M
+    transferTime: 48
+    useRandomStats: false
+    lowerBoundAtMinStats: true
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false

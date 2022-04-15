@@ -1,0 +1,5 @@
+ufoTrajectories:  
+  - id: GROUND_MISSION
+    groundTimer: 0
+    waypoints:
+      - [0, 0, 0]

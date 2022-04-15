@@ -1,0 +1,36 @@
+lookWeights:
+  - 0
+  - 1
+  - 99
+  - 0
+maleFirst:
+  - Zsir 
+  - Arz
+  - Zail 
+  - Rair
+  - Zsaur 
+  - Azer
+  - Ulehz 
+  - Sirz
+femaleFirst:
+  - Zsir 
+  - Arz
+  - Zail 
+  - Rair
+  - Zsaur 
+  - Azer
+  - Ulehz 
+  - Sirz
+maleLast:
+  - Zaihr 
+  - Uszel
+  - Uszer 
+  - Ruesz
+  - Iras 
+  - Zsar
+  - Emez 
+  - Ruer
+  - Uzusur 
+  - Zsir
+  - Iriz 
+  - Urir

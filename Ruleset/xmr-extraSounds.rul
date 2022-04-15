@@ -1,0 +1,36 @@
+extraSounds:
+  - type: GEO.CAT
+    files:
+      5: Resources/Sounds/Geoscape/geo_missile_smaller.ogg
+  - type: BATTLE.CAT
+    files:
+      76: Resources/Sounds/Attacks/RailRifle.wav
+      77: Resources/Sounds/Attacks/small_explosion.ogg
+      80: Resources/Sounds/Deaths/death_sectoid.ogg
+      81: Resources/Sounds/Deaths/death_floater.ogg
+      83: Resources/Sounds/Deaths/death_muton.ogg	
+      701: Resources/Sounds/HumanScreams/MaleFear01.wav
+      702: Resources/Sounds/HumanScreams/MaleFear02.wav
+      703: Resources/Sounds/HumanScreams/MaleFear03.wav
+      704: Resources/Sounds/HumanScreams/MaleFear04.wav
+      705: Resources/Sounds/HumanScreams/MaleFear05.wav
+      706: Resources/Sounds/HumanScreams/MaleFear06.wav
+      707: Resources/Sounds/HumanScreams/MaleFear07.wav
+      708: Resources/Sounds/HumanScreams/MaleFear08.wav
+      709: Resources/Sounds/HumanScreams/MaleFear09.wav
+      731: Resources/Sounds/HumanScreams/FemaleFear01.wav
+      732: Resources/Sounds/HumanScreams/FemaleFear02.wav
+      733: Resources/Sounds/HumanScreams/FemaleFear03.wav
+      734: Resources/Sounds/HumanScreams/FemaleFear04.wav
+      735: Resources/Sounds/HumanScreams/FemaleFear05.wav
+      736: Resources/Sounds/HumanScreams/FemaleFear06.wav
+      737: Resources/Sounds/HumanScreams/FemaleFear07.wav
+      801: Resources/Sounds/HumanScreams/MaleBerserk01.wav
+      802: Resources/Sounds/HumanScreams/MaleBerserk02.wav
+      803: Resources/Sounds/HumanScreams/MaleBerserk03.wav
+      804: Resources/Sounds/HumanScreams/MaleBerserk04.wav
+      805: Resources/Sounds/HumanScreams/MaleBerserk05.wav
+      831: Resources/Sounds/HumanScreams/FemaleBerserk01.wav
+      832: Resources/Sounds/HumanScreams/FemaleBerserk02.wav
+      833: Resources/Sounds/HumanScreams/FemaleBerserk03.wav
+

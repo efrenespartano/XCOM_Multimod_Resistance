@@ -1,0 +1,68 @@
+# X-COM 1 (UFO: Enemy Unknown) ruleset
+# For documentation on these values, see http://ufopaedia.org/index.php?title=Rulesets_(OpenXcom)
+startingTime:
+  second: 0
+  minute: 0
+  hour: 12
+  weekday: 6
+  day: 1
+  month: 1
+  year: 2003
+costEngineer: 25000
+costScientist: 30000
+timePersonnel: 72
+initialFunding: 6000
+alienFuel: [STR_ELERIUM_115, 50]
+fontName: Font.dat
+allowCountriesToCancelAlienPact: false
+buildInfiltrationBaseCloseToTheCountry: true
+lessAliensDuringBaseDefense: true
+tooMuchSmokeThreshold: 13
+escortRange: 50
+crewEmergencyEvacuationSurvivalChance: 70
+showDogfightDistanceInKm: true
+chanceToStopRetaliation: 100
+escortsJoinFightAgainstHK: true
+enableCloseQuartersCombat: 1
+closeQuartersAccuracyGlobal: 400
+stunningImprovesMorale: true
+tuRecoveryWakeUpNewTurn: 50
+escortsJoinFightAgainstHK: true
+lighting:
+  enhanced: 7
+fixedUserOptions:
+  battleUFOExtenderAccuracy: true
+  alienBleeding: true
+  allowPsiStrengthImprovement: false
+  psiStrengthEval: false
+recommendedUserOptions:
+  oxceNightVisionColor: 5
+  oxceAutoNightVisionThreshold: 9
+  bleedingIndicator: true
+  sneakyAI: true
+  aggressiveRetaliation: false
+  allowBuildingQueue: false
+  allowPsiStrengthImprovement: false
+  allowPsionicCapture: true
+  friendlyCraftEscort: true
+  battleInstantGrenade: true
+  psiStrengthEval: false
+  storageLimitsEnforced: true
+  weaponSelfDestruction: false
+  canSellLiveAliens: true
+  battleExplosionHeight: 2
+  craftLaunchAlways: true
+extraNerdyPediaInfo: false
+pediaReplaceCraftFuelWithRangeType: 0
+ai:
+  extendedFireModeChoice: true 
+  pickUpWeaponsMoreActively: true 
+  pickUpWeaponsMoreActivelyCiv: true 
+  destroyBaseFacilities: true
+  fireChoiceIntelCoeff: 10
+  fireChoiceAggroCoeff: 5
+soldiersPerSergeant: 4
+soldiersPerCaptain: 8
+soldiersPerColonel: 25
+soldiersPerCommander: 30
+noLOSAccuracyPenaltyGlobal: 40
