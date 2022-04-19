@@ -169,7 +169,7 @@ armors:
     spriteInv: MAN_3
     corpseBattle:
       - STR_CORPSE_SUIT
-    corpseItem: STR_CORPSE_FLYING_SUIT
+    corpseGeo: STR_CORPSE_FLYING_SUIT
     weight: 2
     frontArmor: 34
     sideArmor: 24
@@ -192,7 +192,7 @@ armors:
     personalLight: 0
     visibilityAtDark: 10
   - type: STR_SECTOID_ARMOR_UC
-    spriteSheet: SECTOID.PCK
+    spriteSheet: SECTOID_SPRITESHEET.PCK
     spriteInv: sectoidInv
     storeItem: STR_NONE
     allowsKneeling: false
@@ -361,7 +361,7 @@ armors:
     visibilityAtDark: 10
     personalLight: 0
   - type: STR_MUTON_ARMOR_UC
-    spriteSheet: MUTON.PCK
+    spriteSheet: MUTON_SPRITESHEET.PCK
     spriteInv: mutonInv
     storeItem: STR_NONE
     allowsKneeling: false
