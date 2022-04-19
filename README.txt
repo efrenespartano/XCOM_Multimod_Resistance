@@ -17,7 +17,7 @@ Solarius Scorch (XCOM Files)
   Sectoid Guardian spritesheet and inventory
   Floater spritesheet and inventory
   Red muton spritesheet and inventory.
-  Space suit inventory and spritesheet.
+  Sectoid kneeling spritesheet
 Moriarity - Power Suit/Flying Suit
 Solarius Scorch (FinalModPack) - Xcom cyberdisc.
 CanadianBeaver (Awesome guns) - Ligthning image, Blackops weapons parts, craft missiles images.
@@ -29,6 +29,7 @@ Liberation (Battle For Mars) - Geoscape
 efrenespartano - UI & Mars terrains
 Hans Woofington - Textures for Mars
 lizin5ths - Condensed Font
+Finnik - Space suit inventory and spritesheet.
 
 If i used some material that is from yourself and i don't give you the respective credit or you don't want to allows to use or modify your material, please, tell me at openxcom forum: cevaralien.
 
@@ -36,12 +37,12 @@ If i used some material that is from yourself and i don't give you the respectiv
 FEATURES OF XCOM MULTIMOD
 ***************************************
 
-This mod is a sequel of the XCOM Multimod, from the perspective of the Aliens. Now, these are the "Resistance", while the humans are the "Aliens". 
+This mod is a sequel of the XCOM Multimod, from the perspective of the Aliens. Now, these are the "Resistance", while the humans are the "Aliens".
 
 Human UFOs equivalent to Terror Ship, Fighter and scouts.
 Some old alien "UFOs" now are playable.
 Changes to the dynamics of the game. The wounding effects are different, in fact, no one dies inmediately from limbs wounds, but if the wounds are so severe, the unit will fall unconscious and it could lost some time or firing points from his or her stats.
-All damage is "flat"; there is no "zero" damage, but critical hits to body parts. 
+All damage is "flat"; there is no "zero" damage, but critical hits to body parts.
 Some new alien weapons and technologies.
 Laser weapons are RECHARGABLE after finish the mission and they don't dissapears after depleat the energy.
 Psionics attacks requires special training, not only psi skills.
