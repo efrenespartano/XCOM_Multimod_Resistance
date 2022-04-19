@@ -1,0 +1,7 @@
+V1.0 Multimod Resistance
+
+X-April-2022
+
+- Added backgrounds
+- Added Condensed Font
+- Fixed issue with Sectoid armor
