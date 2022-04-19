@@ -10,15 +10,15 @@ extraSprites:
       7: Resources/Weapons/BIGOBS07.png
       12: Resources/Weapons/BIGOBS12.gif
       13: Resources/Weapons/BIGOBS13.gif
-      14: Resources/Weapons/BIGOBS14.png            
+      14: Resources/Weapons/BIGOBS14.png
       15: Resources/Weapons/BIGOBS15.png
-      16: Resources/Weapons/BIGOBS16.png      
-      17: Resources/Weapons/BIGOBS17.png      
-      18: Resources/Weapons/BIGOBS18.png      
-      30: Resources/Weapons/BIGOBS30.png 
-      31: Resources/Weapons/BIGOBS31.png 
-      33: Resources/Weapons/BIGOBS33.gif 
-      60: Resources/Weapons/BIGOBS60.gif 
+      16: Resources/Weapons/BIGOBS16.png
+      17: Resources/Weapons/BIGOBS17.png
+      18: Resources/Weapons/BIGOBS18.png
+      30: Resources/Weapons/BIGOBS30.png
+      31: Resources/Weapons/BIGOBS31.png
+      33: Resources/Weapons/BIGOBS33.gif
+      60: Resources/Weapons/BIGOBS60.gif
       101: Resources/Weapons/BIGOBS101.png
       102: Resources/Weapons/BIGOBS102.png
       103: Resources/Weapons/BIGOBS103.png
@@ -49,8 +49,8 @@ extraSprites:
       130: Resources/Weapons/BIGOBS31GL.png
       131: Resources/Weapons/BIGOBS31SG.png
       200: Resources/Weapons/xcom_cyberdisc_laser.png
-      301: Resources/Armors/SpaceSuit/bigob_SPACE_SUIT.png 
-      302: Resources/Armors/FloaterArmor/MAN_6_Corpse.png  
+      301: Resources/Armors/SpaceSuit/bigob_SPACE_SUIT.png
+      302: Resources/Armors/FloaterArmor/MAN_6_Corpse.png
       28: Resources/Armors/SectoidArmor/MAN_1_Corpse.gif
       44: Resources/Armors/PowerSuit/BigCorpse.png
       57: Resources/Armors/FlyingSuit/BigCorpse.png
@@ -70,7 +70,7 @@ extraSprites:
       74: Resources/Units/xcom_cyberdisc1.png
       75: Resources/Units/xcom_cyberdisc2.png
       76: Resources/Units/xcom_cyberdisc3.png
-      77: Resources/Units/xcom_cyberdisc4.png      
+      77: Resources/Units/xcom_cyberdisc4.png
       103: Resources/Weapons/FLOOROB103.png
       104: Resources/Armors/FloaterArmor/MAN_6_Floorob.png
       106: Resources/Weapons/FLOOROB106.png
@@ -91,7 +91,7 @@ extraSprites:
       302: Resources/Armors/MutonArmor/PA_floor.png
       41: Resources/Armors/PowerSuit/FloorCorpse.png
       73: Resources/Armors/FlyingSuit/FloorCorpse.png
-      200: Resources/Weapons/FloorOb_Elerium.gif 
+      200: Resources/Weapons/FloorOb_Elerium.gif
       404: Resources/Civilians/Pale/FloorOb_Sectoid_Pale.png
       405: Resources/Civilians/Albino/FloorOb_Sectoid_White.png
   - type: HANDOB.PCK
@@ -118,20 +118,20 @@ extraSprites:
       208: Resources/Weapons/HandOb_MediKit.gif
       216: Resources/Weapons/HandOb_HE.gif
       224: Resources/Weapons/HandOb_Scanner.gif
-      240: Resources/Weapons/HandOb_ElectroFlare.gif      
+      240: Resources/Weapons/HandOb_ElectroFlare.gif
       248: Resources/Weapons/HandOb_MindProbe.gif
-      280: Resources/Weapons/HandOb_BlasterBomb.gif      
+      280: Resources/Weapons/HandOb_BlasterBomb.gif
       336: Resources/Weapons/HandOb_AlienGrenade.gif
       344: Resources/Weapons/HandOb_SmokeGrenade.gif
       354: Resources/Weapons/HandOb_RifleClip.gif
       360: Resources/Weapons/HandOb_PistolClip.gif
       368: Resources/Weapons/HandOb_PPistolClip.gif
       376: Resources/Weapons/HandOb_PRifleClip.gif
-      384: Resources/Weapons/HandOb_PHeavyClip.gif  
+      384: Resources/Weapons/HandOb_PHeavyClip.gif
       392: Resources/Weapons/HandOb_StunBomb.gif
-      396: Resources/Weapons/HandOb_Elerium.gif 
-      404: Resources/Weapons/HandOb_EXBomb.gif     
-      412: Resources/Weapons/HandOb_IBomb.gif  
+      396: Resources/Weapons/HandOb_Elerium.gif
+      404: Resources/Weapons/HandOb_EXBomb.gif
+      412: Resources/Weapons/HandOb_IBomb.gif
       420: Resources/Weapons/HANDOB117.png
       428: Resources/Weapons/HANDOB118.png
       436: Resources/Weapons/Handob_Medium_launcher.png
@@ -400,6 +400,20 @@ extraSprites:
     height: 1440
     files:
       0: Resources/Armors/SectoidArmor/sectoarmor.png
+  - type: MUTON_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/Armors/MutonSuit/MUTON_SPRITESHEET.png
+  - type: SECTOID_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 680
+    files:
+      0: Resources/Armors/SectoidSuit/SECTOID_SPRITESHEET.png
   - type: XCOM_6.PCK
     width: 512
     height: 720
@@ -473,3 +487,101 @@ extraSprites:
     height: 160
     files:
       0: Resources/Units/xcom_cyberdisc.png
+
+##########################################
+############ BACKGROUNDS #################
+##########################################
+  #- type: GEOBORD.SCR #Space
+  #  singleImage: true
+  #  files:
+  #    0: Resources/Backgrounds/BACK100.png
+  - type: BACK01.SCR #Main
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK01.PNG
+  - type: BACK02.SCR #soldier
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK02.PNG
+  - type: BACK04.SCR #base defense/equipment selection
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK04.PNG
+  - type: BACK05.SCR #research
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK05.PNG
+  - type: BACK08.SCR #items
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK08.PNG
+  #- type: BACK10.SCR #pedia
+  #  singleImage: true
+  #  width: 320
+  #  height: 200
+  #  files:
+  #    0: Resources/Backgrounds/BACK10.PNG
+  - type: BACK12.SCR #launch interceptor
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK12.PNG
+  - type: BACK13.SCR #buy stuff, purchase things
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK13.PNG
+  - type: BACK14.SCR #equip craft
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK14.PNG
+  - type: BACK15.SCR #land at crash/landing site
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK15.PNG
+  - type: BACK16.SCR #mission briefing
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK16.PNG
+  - type: BACK17.SCR #manufacture
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK17.PNG
+  - type: HUMAN_EXCAVATION_BACKGROUND.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/HUMAN_EXCAVATION_BACKGROUND.PNG
+  - type: HUMAN_RESEARCH_BACKGROUND.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/HUMAN_RESEARCH_BACKGROUND.PNG
+  - type: HUMAN_BASE_BACKGROUND.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/HUMAN_BASE_BACKGROUND.PNG
