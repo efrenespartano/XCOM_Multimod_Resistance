@@ -19,23 +19,23 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SMOKE_GRENADE 
+            - STR_GRENADE
+            - STR_SMOKE_GRENADE
           -
             - STR_MACHINE_GUN
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SMOKE_GRENADE 
+            - STR_GRENADE
+            - STR_SMOKE_GRENADE
           -
             - STR_RIFLE_G
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 4
         lowQty: 2
         highQty: 3
@@ -47,14 +47,14 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_RIFLE_G
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
           -
             - STR_LASER_RIFLE
@@ -73,8 +73,8 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
@@ -126,23 +126,23 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SMOKE_GRENADE 
+            - STR_GRENADE
+            - STR_SMOKE_GRENADE
           -
             - STR_MACHINE_GUN
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SMOKE_GRENADE 
+            - STR_GRENADE
+            - STR_SMOKE_GRENADE
           -
             - STR_RIFLE_G
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -154,14 +154,14 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_RIFLE_G
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
           -
             - STR_LASER_RIFLE
@@ -185,23 +185,23 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SMOKE_GRENADE 
+            - STR_GRENADE
+            - STR_SMOKE_GRENADE
           -
             - STR_MACHINE_GUN
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SMOKE_GRENADE 
+            - STR_GRENADE
+            - STR_SMOKE_GRENADE
           -
             - STR_RIFLE_G
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 1
@@ -213,14 +213,14 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_RIFLE_G
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
           -
             - STR_LASER_RIFLE
@@ -239,8 +239,8 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
@@ -281,9 +281,9 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -301,9 +301,9 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
           -
             - STR_ROCKET_LAUNCHER
             - STR_SMALL_ROCKET
@@ -321,14 +321,14 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -346,8 +346,8 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
@@ -371,8 +371,8 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
@@ -396,8 +396,8 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
@@ -438,23 +438,23 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SMOKE_GRENADE 
+            - STR_GRENADE
+            - STR_SMOKE_GRENADE
           -
             - STR_MACHINE_GUN
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SMOKE_GRENADE 
+            - STR_GRENADE
+            - STR_SMOKE_GRENADE
           -
             - STR_RIFLE_G
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -466,14 +466,14 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_RIFLE_G
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
           -
             - STR_LASER_RIFLE
@@ -492,14 +492,14 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -517,14 +517,14 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -542,14 +542,14 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -586,9 +586,9 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -612,7 +612,7 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
       - alienRank: 3
         lowQty: 1
@@ -631,7 +631,7 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
           -
             - STR_ROCKET_LAUNCHER
@@ -650,13 +650,13 @@ alienDeployments:
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -674,13 +674,13 @@ alienDeployments:
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -698,20 +698,20 @@ alienDeployments:
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SMOKE_GRENADE 
+            - STR_GRENADE
+            - STR_SMOKE_GRENADE
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 7
         lowQty: 1
         highQty: 3
@@ -726,7 +726,7 @@ alienDeployments:
             []
     width: 50
     length: 50
-    height: 4  
+    height: 4
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
@@ -738,7 +738,7 @@ alienDeployments:
   - type: STR_TERROR_MISSION
     refNode: *STR_TERROR
     terrains:
-      - MARSURBAN   
+      - MARSURBAN
   - &STR_BASE_ASSAULT
     type: STR_BASE_ASSAULT
     data:
@@ -753,14 +753,14 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -802,9 +802,9 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -828,9 +828,9 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 3
         lowQty: 1
         highQty: 1
@@ -848,9 +848,9 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
           -
             - STR_ROCKET_LAUNCHER
             - STR_SMALL_ROCKET
@@ -868,14 +868,14 @@ alienDeployments:
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SMOKE_GRENADE 
+            - STR_GRENADE
+            - STR_SMOKE_GRENADE
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -893,13 +893,13 @@ alienDeployments:
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -917,7 +917,7 @@ alienDeployments:
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -986,9 +986,9 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -1012,9 +1012,9 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 3
         lowQty: 1
         highQty: 2
@@ -1032,9 +1032,9 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
           -
             - STR_ROCKET_LAUNCHER
             - STR_SMALL_ROCKET
@@ -1052,13 +1052,13 @@ alienDeployments:
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -1076,13 +1076,13 @@ alienDeployments:
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -1100,7 +1100,7 @@ alienDeployments:
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -1124,13 +1124,13 @@ alienDeployments:
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -1172,7 +1172,7 @@ alienDeployments:
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -1196,7 +1196,7 @@ alienDeployments:
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -1220,14 +1220,14 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -1251,9 +1251,9 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
           -
             - STR_ROCKET_LAUNCHER
             - STR_SMALL_ROCKET
@@ -1283,9 +1283,9 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 5
         lowQty: 3
         highQty: 5
@@ -1309,9 +1309,9 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 6
         lowQty: 4
         highQty: 6
@@ -1323,7 +1323,7 @@ alienDeployments:
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -1372,7 +1372,7 @@ alienDeployments:
   - type: STR_HUMAN_EXCAVATION
     missionBountyItem: STR_CONTAINER
     alert: STR_HUMAN_EXCAVATION
-    alertBackground: BACK03.SCR
+    alertBackground: HUMAN_EXCAVATION_BACKGROUND.SCR
     markerName: STR_EXCAVATION_SITE
     customUfo: STR_MINING_BASE
     duration: [6,12]
@@ -1380,6 +1380,7 @@ alienDeployments:
       palette: 2
       title: STR_HUMAN_EXCAVATION
       desc: STR_HUMAN_EXCAVATION_BRIEFING
+      background: HUMAN_EXCAVATION_BACKGROUND.SCR
     terrains:
       - MARSPLAIN
       - MARSCRATER
@@ -1396,23 +1397,23 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SMOKE_GRENADE 
+            - STR_GRENADE
+            - STR_SMOKE_GRENADE
           -
             - STR_MACHINE_GUN
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SMOKE_GRENADE 
+            - STR_GRENADE
+            - STR_SMOKE_GRENADE
           -
             - STR_RIFLE_G
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -1424,14 +1425,14 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_RIFLE_G
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
           -
             - STR_LASER_RIFLE
@@ -1450,8 +1451,8 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
@@ -1475,13 +1476,13 @@ alienDeployments:
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
@@ -1493,7 +1494,7 @@ alienDeployments:
     height: 4
   - type: STR_HUMAN_RESEARCH
     alert: STR_HUMAN_RESEARCH
-    alertBackground: BACK03.SCR
+    alertBackground: HUMAN_RESEARCH_BACKGROUND.SCR
     markerName: STR_RESEARCH_SITE
     customUfo: STR_RESEARCH_BASE
     points: 25
@@ -1502,6 +1503,7 @@ alienDeployments:
       palette: 2
       title: STR_HUMAN_RESEARCH
       desc: STR_HUMAN_RESEARCH_BRIEFING
+      background: HUMAN_RESEARCH_BACKGROUND.SCR
     terrains:
       - MARSPLAIN
       - MARSCRATER
@@ -1518,23 +1520,23 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SMOKE_GRENADE 
+            - STR_GRENADE
+            - STR_SMOKE_GRENADE
           -
             - STR_MACHINE_GUN
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SMOKE_GRENADE 
+            - STR_GRENADE
+            - STR_SMOKE_GRENADE
           -
             - STR_RIFLE_G
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
-            - STR_SMOKE_GRENADE 
+            - STR_SMOKE_GRENADE
       - alienRank: 4
         lowQty: 1
         highQty: 2
@@ -1546,14 +1548,14 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_RIFLE_G
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_40MM_GRENADE
-            - STR_40MM_GRENADE 
+            - STR_40MM_GRENADE
             - STR_40MM_GRENADE_I
           -
             - STR_LASER_RIFLE
@@ -1572,8 +1574,8 @@ alienDeployments:
             - STR_AA_RIFLE_CLIP
             - STR_AA_RIFLE_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
-            - STR_SHOTGUN_AA_AMMO 
+            - STR_GRENADE
+            - STR_SHOTGUN_AA_AMMO
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
@@ -1597,13 +1599,13 @@ alienDeployments:
             - STR_MG_AA_CLIP
             - STR_MG_AA_CLIP
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_LASER_RIFLE
             - STR_LASER_RIFLE_CLIP
             - STR_GRENADE
             - STR_GRENADE
-            - STR_GRENADE 
+            - STR_GRENADE
           -
             - STR_HEAVY_LASER
             - STR_HEAVY_LASER_CLIP
