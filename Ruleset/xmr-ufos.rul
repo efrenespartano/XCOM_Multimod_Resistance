@@ -4,7 +4,7 @@ ufos:
   - delete: STR_BATTLESHIP
   - delete: STR_SMALL_SCOUT
   - type: STR_EXCAVATOR
-    size: STR_MEDIUM
+    size: STR_MEDIUM_UC
     modSprite: InterceptionExcavator
     damageMax: 800
     speedMax: 3600
@@ -47,7 +47,7 @@ ufos:
         - name: FIGHTERUFO
           width: 10
           length: 10
-  - type: STR_MEDIUM_SCOUT
+  - type: STR_MEDIUM_UC_SCOUT
     size: STR_SMALL
     modSprite: InterceptionLightning
     damageMax: 200
@@ -91,7 +91,7 @@ ufos:
           width: 20
           length: 10
   - type: STR_TERROR_SHIP
-    size: STR_MEDIUM
+    size: STR_MEDIUM_UC
     modSprite: InterceptionAssault
     damageMax: 800
     speedMax: 3800

@@ -1,4 +1,5 @@
 terrains:
+# cevaralien
   - name: MARSMOUNT
     script: DEFAULT
     mapDataSets:
@@ -267,5 +268,485 @@ terrains:
         width: 10
         length: 10
       - name: XCOMB_11
+        width: 10
+        length: 10
+
+#IDT - efrenespartano
+  - name: IDT_MARS
+    mapDataSets:
+      - BLANKS
+      - IDT_MARS
+    mapBlocks:
+      - name: IDT_MARS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_MARS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_MARS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_MARS03
+        width: 10
+        length: 10
+      - name: IDT_MARS04
+        width: 10
+        length: 10
+      - name: IDT_MARS05
+        width: 10
+        length: 10
+      - name: IDT_MARS06
+        width: 10
+        length: 10
+      - name: IDT_MARS07
+        width: 10
+        length: 10
+      - name: IDT_MARS08
+        width: 10
+        length: 10
+      - name: IDT_MARS09
+        width: 10
+        length: 10
+      - name: IDT_MARS10
+        width: 10
+        length: 10
+      - name: IDT_MARS11
+        width: 20
+        length: 20
+      - name: IDT_MARS12
+        width: 20
+        length: 20
+      - name: IDT_MARS13
+        width: 10
+        length: 10
+      - name: IDT_MARS14
+        width: 10
+        length: 10
+      - name: IDT_MARS15
+        width: 10
+        length: 10
+
+  - name: IDT_HUMAN_STATION
+    mapDataSets:
+      - BLANKS
+      - MARS_SAND
+      - IDT_RESEARCH_STATION
+    script: MARS_STANDARD_SCRIPT
+    mapBlocks:
+      - name: IDT_HUMAN_STATION00
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_HUMAN_STATION01
+        width: 10
+        length: 10
+      - name: IDT_HUMAN_STATION02
+        width: 10
+        length: 10
+      - name: IDT_HUMAN_STATION03
+        width: 10
+        length: 10
+      - name: IDT_HUMAN_STATION04
+        width: 10
+        length: 10
+      - name: IDT_HUMAN_STATION05
+        width: 10
+        length: 10
+      - name: IDT_HUMAN_STATION06
+        width: 10
+        length: 10
+      - name: IDT_HUMAN_STATION07
+        width: 10
+        length: 10
+      - name: IDT_HUMAN_STATION08
+        width: 20
+        length: 20
+      - name: IDT_HUMAN_STATION09
+        width: 20
+        length: 20
+      - name: IDT_HUMAN_STATION10
+        width: 20
+        length: 20
+      - name: IDT_HUMAN_STATION11
+        width: 20
+        length: 20
+
+  - name: IDT_MARS_DEBRIS
+    mapDataSets:
+      - BLANKS
+      - MARS_SAND
+      - MARS_ROCKS
+      - MARS_WEEDS
+      - MARS_DEBRIS
+    script: MARS_STANDARD_SCRIPT
+    mapBlocks:
+      - name: IDT_MARS_DEBRIS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_MARS_DEBRIS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_MARS_DEBRIS02
+        width: 10
+        length: 10
+      - name: IDT_MARS_DEBRIS03
+        width: 10
+        length: 10
+      - name: IDT_MARS_DEBRIS04
+        width: 10
+        length: 10
+      - name: IDT_MARS_DEBRIS05
+        width: 10
+        length: 10
+      - name: IDT_MARS_DEBRIS06
+        width: 10
+        length: 10
+      - name: IDT_MARS_DEBRIS07
+        width: 10
+        length: 10
+      - name: IDT_MARS_DEBRIS08
+        width: 10
+        length: 10
+      - name: IDT_MARS_DEBRIS09
+        width: 10
+        length: 10
+      - name: IDT_MARS_DEBRIS10
+        width: 20
+        length: 20
+      - name: IDT_MARS_DEBRIS11
+        width: 20
+        length: 20
+      - name: IDT_MARS_DEBRIS12
+        width: 20
+        length: 20
+
+  - name: IDT_MARS_DRYLAKE
+    mapDataSets:
+      - BLANKS
+      - MARS_SAND
+      - MARS_WEEDS
+      - MARS_CORAL
+      - MARS_ROCKS
+    script: MARS_STANDARD_SCRIPT
+    mapBlocks:
+      - name: IDT_MARS_DRYLAKE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_MARS_DRYLAKE01
+        width: 10
+        length: 10
+      - name: IDT_MARS_DRYLAKE02
+        width: 10
+        length: 10
+      - name: IDT_MARS_DRYLAKE03
+        width: 10
+        length: 10
+      - name: IDT_MARS_DRYLAKE04
+        width: 10
+        length: 10
+      - name: IDT_MARS_DRYLAKE05
+        width: 10
+        length: 10
+      - name: IDT_MARS_DRYLAKE06
+        width: 10
+        length: 10
+      - name: IDT_MARS_DRYLAKE07
+        width: 10
+        length: 10
+      - name: IDT_MARS_DRYLAKE08
+        width: 10
+        length: 10
+      - name: IDT_MARS_DRYLAKE09
+        width: 20
+        length: 20
+      - name: IDT_MARS_DRYLAKE10
+        width: 20
+        length: 20
+      - name: IDT_MARS_DRYLAKE11
+        width: 20
+        length: 20
+      - name: IDT_MARS_DRYLAKE12
+        width: 20
+        length: 20
+
+  - name: MARS_ELERIUM
+    mapDataSets:
+      - BLANKS
+      - MARS_ELERIUM
+      - U_WALL02
+    script: MARS
+    mapBlocks:
+      - name: MARS00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MARS01
+        width: 10
+        length: 10
+      - name: MARS02
+        width: 10
+        length: 10
+      - name: MARS03
+        width: 10
+        length: 10
+      - name: MARS04
+        width: 10
+        length: 10
+      - name: MARS05
+        width: 10
+        length: 10
+      - name: MARS06
+        width: 10
+        length: 10
+      #- name: MARS07
+      #  width: 10
+      #  length: 10
+      #- name: MARS08
+      #  width: 10
+      #  length: 10
+      #- name: MARS09
+      #  width: 10
+      #  length: 10
+      #- name: MARS10
+      #  width: 10
+      #  length: 10
+      #  groups: 2
+
+# liberation
+  - name: MSTD
+    mapDataSets:
+      - BLANKS
+      - MSTD
+    script: MSTDS
+    mapBlocks:
+      - name: MSTD01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MSTD02
+        width: 10
+        length: 10
+      - name: MSTD03
+        width: 10
+        length: 10
+      - name: MSTD04
+        width: 10
+        length: 10
+      - name: MSTD05
+        width: 10
+        length: 10
+      - name: MSTD06
+        width: 10
+        length: 10
+#      - name: MSTD07
+#        width: 10
+#        length: 10
+      - name: MSTD08
+        width: 10
+        length: 10
+#      - name: MSTD09
+#        width: 10
+#        length: 10
+      - name: MSTD10
+        width: 10
+        length: 10
+      - name: MSTD11
+        width: 10
+        length: 10
+#      - name: MSTD12
+#        width: 10
+#        length: 10
+      - name: MSTD13
+        width: 10
+        length: 10
+#      - name: MSTD14
+#        width: 10
+#        length: 10
+      - name: MSTD15
+        width: 10
+        length: 10
+#      - name: MSTD16
+#        width: 20
+#        length: 20
+#      - name: MSTD17
+#        width: 20
+#        length: 20
+      - name: MSTD20
+        width: 10
+        length: 10
+      - name: MSTD21
+        width: 10
+        length: 10
+      - name: MSTD23
+        width: 10
+        length: 10
+  - name: MSTDS
+    mapDataSets:
+      - BLANKS
+      - MSTDS
+    script: MSTDSS
+    mapBlocks:
+      - name: MSTD01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MSTD02
+        width: 10
+        length: 10
+#      - name: MSTD03
+#        width: 10
+#        length: 10
+      - name: MSTD04
+        width: 10
+        length: 10
+#      - name: MSTD05
+#        width: 10
+#        length: 10
+      - name: MSTD06
+        width: 10
+        length: 10
+      - name: MSTD07
+        width: 10
+        length: 10
+      - name: MSTD08
+        width: 10
+        length: 10
+      - name: MSTD09
+        width: 10
+        length: 10
+#      - name: MSTD10
+#        width: 10
+#        length: 10
+#      - name: MSTD11
+#        width: 10
+#        length: 10
+      - name: MSTD12
+        width: 10
+        length: 10
+      - name: MSTD13
+        width: 10
+        length: 10
+      - name: MSTD14
+        width: 10
+        length: 10
+      - name: MSTD15
+        width: 10
+        length: 10
+#      - name: MSTD16
+#        width: 20
+#        length: 20
+#      - name: MSTD17
+#        width: 20
+#        length: 20
+      - name: MSTD18
+        width: 10
+        length: 10
+      - name: MSTD19
+        width: 10
+        length: 10
+      - name: MSTD20
+        width: 10
+        length: 10
+      - name: MSTD22
+        width: 10
+        length: 10
+      - name: MSTD23
+        width: 10
+        length: 10
+  - name: MPOLN
+    mapDataSets:
+      - BLANKS
+      - MSTD
+      - MPOLO
+    script: MPOLN
+    mapBlocks:
+      - name: MPOL01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MPOL02
+        width: 10
+        length: 10
+      - name: MPOL03
+        width: 10
+        length: 10
+      - name: MPOL04
+        width: 10
+        length: 10
+      - name: MPOL05
+        width: 10
+        length: 10
+      - name: MPOL06
+        width: 10
+        length: 10
+      - name: MPOL07
+        width: 10
+        length: 10
+      - name: MPOL08
+        width: 10
+        length: 10
+      - name: MPOL09
+        width: 10
+        length: 10
+      - name: MPOL10
+        width: 10
+        length: 10
+  - name: MSTRK
+    mapDataSets:
+      - BLANKS
+      - MSTD
+      - MSTRK
+    script:  MSTRKN
+    mapBlocks:
+      - name: MSTRK01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: MSTRK02
+        width: 10
+        length: 10
+      - name: MSTRK03
+        width: 10
+        length: 10
+      - name: MSTRK04
+        width: 10
+        length: 10
+      - name: MSTRK05
+        width: 10
+        length: 10
+      - name: MSTRK06
+        width: 10
+        length: 10
+      - name: MSTRK07
+        width: 10
+        length: 10
+      - name: MSTRK08
+        width: 10
+        length: 10
+      - name: MSTRK09
+        width: 10
+        length: 10
+      - name: MSTRK10
+        width: 10
+        length: 10
+      - name: MSTRK11
+        width: 10
+        length: 10
+      - name: MSTRK12
+        width: 10
+        length: 10
+      - name: MSTRK13
+        width: 10
+        length: 10
+      - name: MSTRK14
+        width: 10
+        length: 10
+      - name: MSTRK15
         width: 10
         length: 10

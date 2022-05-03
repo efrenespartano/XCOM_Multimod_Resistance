@@ -1,3 +1,17 @@
+#0.- Smoth land
+#1.- Smooth Crater-ridden land
+#2.- Hilly lava plains (lots of hills, for sure!)
+#3.- Plains with dry lava channels
+#4.- Dark lava plain with craters
+#5.- Unused
+#6.- Unused
+#7.- Volcanic plains, very high land. Light color
+#8.- Other volcanic high plains, but a little lower than the 7. Light color
+#9.- Snow
+#10.- Dark, mottled, smooth lava plains aka "seas"
+#11.- Deep canyon terrain
+#12.- Permafrost ice on the poles
+
 globe:
   data: Resources/Geoscape/WORLD.DAT
   oceanPalette: 12
@@ -15,59 +29,151 @@ globe:
     - [179.11, -11.70, 177.53, -6.74, 189.15, -5.97, 190.48, 14.08, 230.72, 13.73, 230.96, -5.4, 216.23, -3.8, 209.08, -11.53, 179.11, -11.70]
     - [274.91, 44.88, 246.31, 44.86, 226.99, 46.19, 216.80, 68.82, 165.19, 68.90, 170.90, 73.54, 235.81, 73.85, 275.94, 73.51, 274.91, 44.88]
   textures:
-    - id: 0
+    - id: 0 # Smoth land
+      terrain:
+        - name: MSTD
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: IDT_MARS_DEBRIS
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: MSTD
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: IDT_MARS_DEBRIS
+          area: [0, 360, 0, 90]
+          weight: 50
+    - id: 1 # Smooth Crater-ridden land
       terrain:
         - name: MARSPLAIN
-    - id: 1
-      terrain:
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: IDT_HUMAN_STATION
+          area: [0, 360, -90, 0]
+          weight: 10
+        - name: MSTD
+          area: [0, 360, -90, 0]
+          weight: 50
         - name: MARSCRATER
-    - id: 2
-      terrain:
-        - name: MARSMOUNT
+          area: [0, 360, 0, 90]
           weight: 50
-        - name: MARSPLAIN
+        - name: MSTDS
+          area: [0, 360, 0, 90]
           weight: 50
-    - id: 3
+        - name: MARS
+          area: [0, 360, 0, 90]
+          weight: 10
+    - id: 2 # Hilly lava plains (lots of hills, for sure!)
       terrain:
-        - name: MARSMOUNT
+        - name: MSTRK
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: IDT_MARS
+          area: [0, 360, 0, 90]
+          weight: 50
+    - id: 3 # Plains with dry lava channels
+      terrain:
+        - name: MSTD
+          area: [0, 360, -90, 0]
           weight: 30
-        - name: MARSPLAIN
-          weight: 70
-    - id: 4
-      terrain:
-        - name: MARSCRATER
-    - id: 5
-      terrain:
-        - name: MARSMOUNT
-          weight: 30
-        - name: MARSCRATER
-          weight: 50
-        - name: MARSPLAIN
+        - name: IDT_HUMAN_STATION
+          area: [0, 360, -90, 0]
+          weight: 10
+        - name: MARSURBAN
+          area: [0, 360, -90, 0]
           weight: 20
-    - id: 6
-      terrain:
-        - name: MARSMOUNT
+        - name: MSTDS
+          area: [0, 360, 0, 90]
           weight: 70
-        - name: MARSPLAIN
+        - name: MARS
+          area: [0, 360, 0, 90]
+          weight: 10
+        - name: MARSURBAN
+          area: [0, 360, 0, 90]
+          weight: 20
+    - id: 4 # Dark lava plain with craters
+      terrain:
+        - name: MSTD
+          area: [0, 360, -90, 0]
           weight: 50
-    - id: 7
-      terrain:
-        - name: POLAR
-    - id: 8
-      terrain:
-        - name: MARSMOUNT
-    - id: 9
-      terrain:
-        - name: MARSMOUNT
-          weight: 70
-        - name: MARSPLAIN
-          weight: 30
-    - id: 10
-      terrain:
         - name: MARSCRATER
-    - id: 11
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: MARSCRATER
+          area: [0, 360, 0, 90]
+          weight: 50
+        - name: MARS_ELERIUM
+          area: [0, 360, 0, 90]
+          weight: 50
+    - id: 5 # Unused
       terrain:
-        - name: POLAR
+        - name: MARS
+          area: [0, 360, -90, 0]
+        - name: IDT_MARS
+          area: [0, 360, 0, 90]
+    - id: 6 # Unused
+      terrain:
+        - name: MARS
+          area: [0, 360, -90, 0]
+        - name: IDT_MARS
+          area: [0, 360, 0, 90]
+    - id: 7 # Volcanic plains, very high land. Light color
+      terrain:
+        - name: MSTRK
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: MARS
+          area: [0, 360, -90, 0]
+          weight: 10
+        - name: MARSMOUNT
+          area: [0, 360, 0, 90]
+          weight: 50
+        - name: IDT_MARS
+          area: [0, 360, 0, 90]
+          weight: 50
+    - id: 8 # Other volcanic high plains, but a little lower than the 7. Light color
+      terrain:
+        - name: MSTRK
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: MARS
+          area: [0, 360, -90, 0]
+          weight: 10
+        - name: IDT_MARS_DRYLAKE
+          area: [0, 360, 0, 90]
+          weight: 50
+        - name: IDT_MARS
+          area: [0, 360, 0, 90]
+          weight: 50
+    - id: 9 # Snow
+      terrain:
+        - name: MPOLN
+          area: [0, 360, -90, 0]
+        - name: MPOLN
+          area: [0, 360, 0, 90]
+    - id: 10 # Dark, mottled, smooth lava plains aka "seas"
+      terrain:
+        - name: MSTD
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: MARSPLAIN
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: MSTDS
+          area: [0, 360, 0, 90]
+          weight: 50
+        - name: IDT_MARS_DEBRIS
+          area: [0, 360, 0, 90]
+          weight: 50
+    - id: 11 # Deep canyon terrain
+      terrain:
+        - name: MSTRK
+          area: [0, 360, -90, 0]
+        - name: MARSMOUNT
+          area: [0, 360, 0, 90]
+    - id: 12 # Permafrost ice on the poles
+      terrain:
+        - name: MPOLN
     - id: -1
       deployments:
         STR_TERROR_MISSION: 100

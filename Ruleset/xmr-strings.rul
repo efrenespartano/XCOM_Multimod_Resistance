@@ -72,8 +72,6 @@
       STR_GAME_OVER_1: "The humans attempt to exterminate all our civilization, destroying cities and our people. Now, Mars is a mining complex and our civilization is forgotten."
       STR_GAME_OVER_2: "You have failed to save Mars."
       STR_YOU_HAVE_FAILED: "You have failed to stop the human onslaught. One by one the funding hives falls under the boot of the invader..."    
-      MAP_UBASE: "Human Base"
-      MAP_XBASE: "Resistance Base"
       STR_UNITS_IN_CRAFT:
         one: "{N} Unit in Resistance Craft"
         other: "{N} Units in Resistance Craft"
@@ -92,6 +90,24 @@
       STR_XCOM_PROJECT_MONTHLY_REPORT: "RESISTANCE PROJECT MONTHLY REPORT"
       STR_COUNTRY_HAS_SIGNED_A_SECRET_PACT: "{0} has signed a secret pact with human forces and has withdrawn from the project."
       STR_COUNTRIES_HAVE_SIGNED_A_SECRET_PACT: "{0} have signed a secret pact with human forces and have withdrawn from the project."
+#Terrains
+      MAP_UBASE: "Human Base"
+      MAP_XBASE: "Resistance Base"
+      MAP_IDT_MARS: "Southern Rocky Highlands"
+      MAP_IDT_HUMAN_STATION: "Human R&D Station"
+      MAP_IDT_MARS_DEBRIS: "Former Warzone"
+      MAP_IDT_MARS_DRYLAKE: "Dry Seabed"
+      MAP_MARS: "Military Base"
+      MAP_MARSMOUNT: "Southern Highlands"
+      MAP_MARSURBAN: "Civilian Complex"
+      MAP_MARSPLAIN: "Northern Lowlands"
+      MAP_MARSCRATER: "Southern Volcanic Plains"
+      MAP_MSTD: "Northern Volcanic Plains"
+      MAP_MSTDS: "Southern Plains"
+      MAP_MPOLN: "Polar Ice Caps"
+      MAP_MSTRK: "Volcanic Highlands"
+      MAP_MARS_ELERIUM: "Elerium-infused Plains"
+
 #General
       STR_PLASMA_RIFLE_GL: "Plasma Rifle/Acid Launcher"
       STR_PLASMA_RIFLE_GL_UFOPEDIA: "This is a plasma rifle with an Acid launcher add-on. It could load one acid launcher clip."

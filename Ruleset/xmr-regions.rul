@@ -84,7 +84,6 @@ regions:
         - [278, 278, 49, 49, -4]
 
   - type: STR_ACIDALIA_PLANITIA
-    cost: 900000
     areas:
       - - 300.748298307031
         - 8.388471885984188
@@ -93,19 +92,21 @@ regions:
     regionWeight: 18
     missionWeights:
       STR_ALIEN_RESEARCH: 14
+      #STR_ALIEN_HARVEST: 17
+      #STR_ALIEN_ABDUCTION: 20
       STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
       -
-        - [302, 8, -69, -55]
+        - [302, 368, -69, -55]
         - [302, 324, -55, -39]
-        - [302, 6.6, -30, -10]
-        - [344, 6.6, -46, -30]
+        - [302, 366.6, -30, -10]
+        - [344, 366.6, -46, -30]
       -
         - [303, 321, -52, -43]
         - [336, 342, -42, -50]
         - [319, 344, -27, -24]
-        - [348, 4, -41, -17]
+        - [348, 364, -41, -17]
         - [317, 338, -37, -32]
         - [328, 348, -65, -61]
       -
@@ -119,7 +120,7 @@ regions:
         - [311, 311, -35, -35, -1, STR_NATO_MINING_POST]
       -
         - [332, 344, -44, -40]
-        - [356, 3, -53, -48]
+        - [356, 363, -53, -48]
         - [305, 312, -36, -33]
         - [342, 350, -20, -15]
       -
@@ -129,7 +130,6 @@ regions:
         - [81, 118, -37, -18]
 
   - type: STR_VASTITAS_BOREALIS
-    cost: 600000
     areas:
       - - 180.24761545139
         - 179.75238454861005
@@ -138,17 +138,19 @@ regions:
     regionWeight: 18
     missionWeights:
       STR_ALIEN_RESEARCH: 14
+      #STR_ALIEN_HARVEST: 17
+      #STR_ALIEN_ABDUCTION: 20
       STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
       -
-        - [262, 15, -77, -72]
+        - [262, 375, -77, -72]
         - [48, 142, -78, -73]
       -
         - [198, 285, -77, -76]
         - [78, 117, -75, -84]
       -
-        - [209, 160, -82, -78]
+        - [209, 520, -82, -78]
       -
         - [40, 40, -74, -74, -1, STR_NATO_OUTPOST_2]
         - [189, 189, -80, -80, -1, STR_NATO_ICE_PLANT]
@@ -161,7 +163,6 @@ regions:
 #2nd Terra Cimmeria mz5
         - [139, 161, 10, 16]
   - type: STR_TERRA_MERIDIANI
-    cost: 600000
     areas:
       - - 300.373986620834
         - 8.69666285820648
@@ -174,23 +175,25 @@ regions:
     regionWeight: 18
     missionWeights:
       STR_ALIEN_RESEARCH: 14
+      #STR_ALIEN_HARVEST: 17
+      #STR_ALIEN_ABDUCTION: 20
       STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
       -
         - [305, 332, -6, -0.3]
-        - [345, 2.4, -4, -1.6]
-        - [319, 3.1, 10, 25]
+        - [345, 362.4, -4, -1.6]
+        - [319, 363.1, 10, 25]
         - [9.3, 33, 2.1, 9]
         - [44, 64, 7, 17]
       -
         - [316, 330, -3.4, 12]
-        - [343, 0, 5, 15]
+        - [343, 360, 5, 15]
         - [5, 28, 15, 19]
         - [45, 59, 3.12, 7.2]
       -
         - [333, 340, -1.2, 5]
-        - [353, 10, 0.72, 5]
+        - [353, 370, 0.72, 5]
         - [54, 65, 11, 15]
         - [329, 346, 14, 16]
         - [19, 26, 7.6, 15]
@@ -208,7 +211,6 @@ regions:
         - [193, 224, 55, 64]
 
   - type: STR_ARABIA_TERRA
-    cost: 600000
     areas:
       - - 7.87579948793109
         - 68
@@ -217,6 +219,8 @@ regions:
     regionWeight: 18
     missionWeights:
       STR_ALIEN_RESEARCH: 14
+      #STR_ALIEN_HARVEST: 17
+      #STR_ALIEN_ABDUCTION: 20
       STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
@@ -249,7 +253,6 @@ regions:
 #2nd Argyre Plantia mz5
         - [317, 346, 64, 71]
   - type: STR_ELYSIUM_PLANITIA
-    cost: 1000000
     areas:
       - - 67.69012661687702
         - 179.82806932521998
@@ -258,6 +261,8 @@ regions:
     regionWeight: 18
     missionWeights:
       STR_ALIEN_RESEARCH: 14
+      #STR_ALIEN_HARVEST: 17
+      #STR_ALIEN_ABDUCTION: 20
       STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
@@ -296,7 +301,6 @@ regions:
         - [113, 169, 57, 55]
 
   - type: STR_AMAZONIS_PLANITIA
-    cost: 1000000
     areas:
       - - 178.95822644328
         - 301.310042415498
@@ -305,6 +309,8 @@ regions:
     regionWeight: 18
     missionWeights:
       STR_ALIEN_RESEARCH: 14
+      #STR_ALIEN_HARVEST: 17
+      #STR_ALIEN_ABDUCTION: 20
       STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
@@ -364,7 +370,6 @@ regions:
 #        - [236, 236, -18, -18, -1, STR_OLYMPUS]
 #        - [294, 294, 8, 8, -1, STR_MARINER_TRENCH]
   - type: STR_TERRA_SIRENUM
-    cost: 650000
     areas:
       - - 179.98721212035
         - 305.21211229397
@@ -373,6 +378,8 @@ regions:
     regionWeight: 18
     missionWeights:
       STR_ALIEN_RESEARCH: 14
+      #STR_ALIEN_HARVEST: 17
+      #STR_ALIEN_ABDUCTION: 20
       STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
@@ -411,7 +418,6 @@ regions:
         - [41, 60, 2, 13]
 
   - type: STR_ARGYRE_PLANITIA
-    cost: 650000
     areas:
       - - 296.995368804387
         - 352.521
@@ -424,6 +430,8 @@ regions:
     regionWeight: 18
     missionWeights:
       STR_ALIEN_RESEARCH: 14
+      #STR_ALIEN_HARVEST: 17
+      #STR_ALIEN_ABDUCTION: 20
       STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
@@ -458,7 +466,6 @@ regions:
         - [10, 44, -74, -68]
 
   - type: STR_NOACHIS_TERRA
-    cost: 650000
     areas:
       - - 352.4864820856391
         - 55.8892
@@ -476,12 +483,14 @@ regions:
     regionWeight: 18
     missionWeights:
       STR_ALIEN_RESEARCH: 14
+      #STR_ALIEN_HARVEST: 17
+      #STR_ALIEN_ABDUCTION: 20
       STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
       -
         - [10, 47, 23, 25]
-        - [358, 13, 33, 68]
+        - [358, 373, 33, 68]
         - [27, 42, 44, 53]
         - [1, 40, 73, 82]
       -
@@ -511,7 +520,6 @@ regions:
         - [219, 246, 0.4, 18]
 
   - type: STR_HELLAS_PLANITIA
-    cost: 650000
     areas:
       - - 67.068697363414
         - 111.75638833564
@@ -524,6 +532,8 @@ regions:
     regionWeight: 18
     missionWeights:
       STR_ALIEN_RESEARCH: 14
+      #STR_ALIEN_HARVEST: 17
+      #STR_ALIEN_ABDUCTION: 20
       STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:
@@ -559,7 +569,6 @@ regions:
         - [241, 325, -85, -80]
 
   - type: STR_TERRA_CIMMERIA
-    cost: 650000
     areas:
       - - 109.29086055787002
         - 180.48297514118997
@@ -567,6 +576,8 @@ regions:
         - 88.852760161408
     missionWeights:
       STR_ALIEN_RESEARCH: 14
+      #STR_ALIEN_HARVEST: 17
+      #STR_ALIEN_ABDUCTION: 20
       STR_ALIEN_INFILTRATION: 20
       STR_ALIEN_BASE: 20
     missionZones:

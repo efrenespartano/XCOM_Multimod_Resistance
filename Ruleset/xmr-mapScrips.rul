@@ -65,3 +65,31 @@ mapScripts:
           - type: floor
             set: 1
             entry: 7
+  - type: MARS_STANDARD_SCRIPT 
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
+  - type: MSTDS
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: fillArea
+  - type: MSTDSS
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: fillArea
+  - type: MPOLN
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: fillArea
+  - type: MSTRKN
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: fillArea
